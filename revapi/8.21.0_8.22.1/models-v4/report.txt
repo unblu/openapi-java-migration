@@ -1,0 +1,35 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.21.0.jar
+New API: models-v4-8.22.1.jar
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlan(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlanFileUrl(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlan()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlanFileUrl()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.BranchData::setFloorPlan(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.BranchData::setFloorPlanFileUrl(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+

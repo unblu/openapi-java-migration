@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Logging configuration for the Revapi CLI, derived from the `conf/logback.xml` file
+  of the org.revapi:revapi-standalone distribution. Only the console appender is kept:
+  the distribution additionally writes to `logs/revapi.log` relative to the working
+  directory, which is undesirable when the CLI is driven by a script.
+-->
+<configuration>
+
+    <appender name="STDERR" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+    </appender>
+
+    <root level="all">
+        <appender-ref ref="STDERR"/>
+    </root>
+</configuration>

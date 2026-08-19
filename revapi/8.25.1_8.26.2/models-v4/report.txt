@@ -1,0 +1,15 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.25.1.jar
+New API: models-v4-8.26.2.jar
+old: class com.unblu.webapi.model.v4.ConversationSummaryTemplateTest
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: field com.unblu.webapi.model.v4.ESummarizationTimeFrame.WHOLE_CONVERSATION_WITHOUT_ONBOARDING
+new: <none>
+java.field.removed: Field removed from class.
+SOURCE: BREAKING, BINARY: BREAKING
+

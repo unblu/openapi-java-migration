@@ -1,0 +1,15 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.2.0.jar
+New API: jersey3-client-v4-8.3.1.jar
+old: interface com.unblu.webapi.model.v4.CannedResponseSearchFilter
+new: interface com.unblu.webapi.model.v4.CannedResponseSearchFilter
+java.annotation.attributeValueChanged: Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = "CREATION_TIMESTAMP"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.KeyCannedResponseSearchFilter.class, name = "KEY"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = "MODIFICATION_TIMESTAMP"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = "OWNER_ID"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = "OWNER_TYPE"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = "TEXT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = "TITLE")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = "CREATION_TIMESTAMP"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = "MODIFICATION_TIMESTAMP"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = "OWNER_ID"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = "OWNER_TYPE"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = "TEXT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = "TITLE")}'.
+SEMANTIC: POTENTIALLY_BREAKING, BINARY: EQUIVALENT, SOURCE: EQUIVALENT
+
+old: field com.unblu.webapi.model.v4.ECannedResponseSearchFilterField.KEY
+new: <none>
+java.field.removed: Field removed from class.
+BINARY: BREAKING, SOURCE: BREAKING
+

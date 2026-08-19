@@ -1,0 +1,821 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.jersey.v4.api.AnalyticsDataApi::analyticsDataInternal() throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.AnalyticsDataApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnalyticsDataApi"
+  }, {
+    "name" : "methodName",
+    "value" : "analyticsDataInternal"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<java.lang.Void> com.unblu.webapi.jersey.v4.api.AnalyticsDataApi::analyticsDataInternalWithHttpInfo() throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.AnalyticsDataApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnalyticsDataApi"
+  }, {
+    "name" : "methodName",
+    "value" : "analyticsDataInternalWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsCreate(com.unblu.webapi.model.v4.DialogBotData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsCreate(com.unblu.webapi.model.v4.DialogBotData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsCreateWithHttpInfo(com.unblu.webapi.model.v4.DialogBotData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsCreateWithHttpInfo(com.unblu.webapi.model.v4.DialogBotData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsGetByName(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsGetByName(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsGetByName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsGetByNameWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsGetByNameWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsGetByNameWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsRead(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsReadWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsUpdate(com.unblu.webapi.model.v4.DialogBotData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.jersey.v4.api.BotsApi::botsUpdate(com.unblu.webapi.model.v4.DialogBotData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsUpdateWithHttpInfo(com.unblu.webapi.model.v4.DialogBotData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.DialogBotData> com.unblu.webapi.jersey.v4.api.BotsApi::botsUpdateWithHttpInfo(com.unblu.webapi.model.v4.DialogBotData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.BotsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "botsUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesCreate(com.unblu.webapi.model.v4.SuggestionSourceData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesCreate(com.unblu.webapi.model.v4.SuggestionSourceData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesCreateWithHttpInfo(com.unblu.webapi.model.v4.SuggestionSourceData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesCreateWithHttpInfo(com.unblu.webapi.model.v4.SuggestionSourceData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesGetByName(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesGetByName(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesGetByName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesGetByNameWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesGetByNameWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesGetByNameWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesRead(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesReadWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesUpdate(com.unblu.webapi.model.v4.SuggestionSourceData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesUpdate(com.unblu.webapi.model.v4.SuggestionSourceData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesUpdateWithHttpInfo(com.unblu.webapi.model.v4.SuggestionSourceData) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SuggestionSourceData> com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi::suggestionSourcesUpdateWithHttpInfo(com.unblu.webapi.model.v4.SuggestionSourceData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.SuggestionSourcesApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourcesApi"
+  }, {
+    "name" : "methodName",
+    "value" : "suggestionSourcesUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.AnalyticsWidgetData",
+  "new" : "interface com.unblu.webapi.model.v4.AnalyticsWidgetData",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AnalyticsWidgetData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnalyticsWidgetData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

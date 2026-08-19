@@ -1,0 +1,72 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.ConversationSummaryTemplateTest",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ConversationSummaryTemplateTest"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConversationSummaryTemplateTest"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.25.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.ESummarizationTimeFrame.WHOLE_CONVERSATION_WITHOUT_ONBOARDING",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ESummarizationTimeFrame"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ESummarizationTimeFrame"
+  }, {
+    "name" : "fieldName",
+    "value" : "WHOLE_CONVERSATION_WITHOUT_ONBOARDING"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.25.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

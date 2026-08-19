@@ -1,0 +1,293 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.EPersonSearchFilterField.PERSON_LABEL_NAME",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EPersonSearchFilterField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EPersonSearchFilterField"
+  }, {
+    "name" : "fieldName",
+    "value" : "PERSON_LABEL_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.EPersonTypedSearchFilterField.PERSON_LABEL_NAME",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EPersonTypedSearchFilterField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EPersonTypedSearchFilterField"
+  }, {
+    "name" : "fieldName",
+    "value" : "PERSON_LABEL_NAME"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.HavingPersonLabelNameOperator",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.HavingPersonLabelNameOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "HavingPersonLabelNameOperator"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.PersonLabelNamePersonSearchFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelNamePersonSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelNamePersonSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.PersonLabelNamePersonTypedSearchFilter",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelNamePersonTypedSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelNamePersonTypedSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.PersonSearchFilter",
+  "new" : "interface com.unblu.webapi.model.v4.PersonSearchFilter",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelNamePersonSearchFilter.class, name = \"PERSON_LABEL_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonSourcePersonSearchFilter.class, name = \"PERSON_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypePersonSearchFilter.class, name = \"PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceDataPersonSearchFilter.class, name = \"SOURCE_DATA\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonSearchFilter.class, name = \"USERNAME\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonSourcePersonSearchFilter.class, name = \"PERSON_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypePersonSearchFilter.class, name = \"PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceDataPersonSearchFilter.class, name = \"SOURCE_DATA\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonSearchFilter.class, name = \"USERNAME\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonSourcePersonSearchFilter.class, name = \"PERSON_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypePersonSearchFilter.class, name = \"PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceDataPersonSearchFilter.class, name = \"SOURCE_DATA\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonSearchFilter.class, name = \"USERNAME\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelNamePersonSearchFilter.class, name = \"PERSON_LABEL_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonSourcePersonSearchFilter.class, name = \"PERSON_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypePersonSearchFilter.class, name = \"PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceDataPersonSearchFilter.class, name = \"SOURCE_DATA\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonSearchFilter.class, name = \"USERNAME\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonSourcePersonSearchFilter.class, name = \"PERSON_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypePersonSearchFilter.class, name = \"PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceDataPersonSearchFilter.class, name = \"SOURCE_DATA\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonSearchFilter.class, name = \"USERNAME\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.7.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.PersonTypedSearchFilter",
+  "new" : "interface com.unblu.webapi.model.v4.PersonTypedSearchFilter",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonTypedSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypedCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonTypedSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonTypedSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonTypedSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonTypedSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelNamePersonTypedSearchFilter.class, name = \"PERSON_LABEL_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonTypedSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonTypedSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonTypedSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonTypedSearchFilter.class, name = \"USERNAME\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonTypedSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypedCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonTypedSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonTypedSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonTypedSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonTypedSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonTypedSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonTypedSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonTypedSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonTypedSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonTypedSearchFilter.class, name = \"USERNAME\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonTypedSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypedCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonTypedSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonTypedSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonTypedSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonTypedSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonTypedSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonTypedSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonTypedSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonTypedSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonTypedSearchFilter.class, name = \"USERNAME\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonTypedSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypedCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonTypedSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonTypedSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonTypedSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonTypedSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelNamePersonTypedSearchFilter.class, name = \"PERSON_LABEL_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonTypedSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonTypedSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonTypedSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonTypedSearchFilter.class, name = \"USERNAME\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthorizationRolePersonTypedSearchFilter.class, name = \"AUTHORIZATION_ROLE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonTypedCompoundSearchFilter.class, name = \"COMPOUND\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmailPersonTypedSearchFilter.class, name = \"EMAIL\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FirstNamePersonTypedSearchFilter.class, name = \"FIRST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LastNamePersonTypedSearchFilter.class, name = \"LAST_NAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.NicknamePersonTypedSearchFilter.class, name = \"NICKNAME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PersonLabelsPersonTypedSearchFilter.class, name = \"PERSON_LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.PhonePersonTypedSearchFilter.class, name = \"PHONE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdPersonTypedSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TeamIdPersonTypedSearchFilter.class, name = \"TEAM_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.UsernamePersonTypedSearchFilter.class, name = \"USERNAME\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonTypedSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonTypedSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.6.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.7.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

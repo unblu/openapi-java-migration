@@ -1,0 +1,112 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.BranchClientLinkData com.unblu.webapi.model.v4.BranchClientLinkData::autoOpen(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientLinkData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientLinkData"
+  }, {
+    "name" : "methodName",
+    "value" : "autoOpen"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.16.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.BranchClientLinkData::isAutoOpen()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientLinkData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientLinkData"
+  }, {
+    "name" : "methodName",
+    "value" : "isAutoOpen"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.16.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.BranchClientLinkData::setAutoOpen(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientLinkData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientLinkData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAutoOpen"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.16.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

@@ -1,0 +1,375 @@
+[ {
+  "code" : "java.class.removed",
+  "old" : "enum com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ETemplateComponentParemetersSubType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum com.unblu.webapi.model.v4.ETemplateComponentParemetersType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ETemplateComponentParemetersType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getSubType()",
+  "new" : "method com.unblu.webapi.model.v4.ETemplateComponentParametersSubType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getSubType()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to  'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersSubType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getSubType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.ETemplateComponentParemetersType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getType()",
+  "new" : "method com.unblu.webapi.model.v4.ETemplateComponentParametersType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getType()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to  'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "getType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setSubType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setSubType(===com.unblu.webapi.model.v4.ETemplateComponentParametersSubType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersSubType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "setSubType"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersType===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setType(===com.unblu.webapi.model.v4.ETemplateComponentParametersType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "setType"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::subType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType===)",
+  "new" : "parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::subType(===com.unblu.webapi.model.v4.ETemplateComponentParametersSubType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersSubType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "subType"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::type(===com.unblu.webapi.model.v4.ETemplateComponentParemetersType===)",
+  "new" : "parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::type(===com.unblu.webapi.model.v4.ETemplateComponentParametersType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParemetersType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.ETemplateComponentParametersType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WhatsAppTemplateComponentParameters"
+  }, {
+    "name" : "methodName",
+    "value" : "type"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.38.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

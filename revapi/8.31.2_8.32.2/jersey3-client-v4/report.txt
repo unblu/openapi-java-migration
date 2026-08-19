@@ -1,0 +1,10 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.31.2.jar
+New API: jersey3-client-v4-8.32.2.jar
+old: field com.unblu.webapi.model.v4.EMessageType.WHATSAPP_TEMPLATE
+new: <none>
+java.field.removed: Field removed from class.
+BINARY: BREAKING, SOURCE: BREAKING
+

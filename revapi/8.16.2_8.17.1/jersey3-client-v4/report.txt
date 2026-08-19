@@ -1,0 +1,20 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.16.2.jar
+New API: jersey3-client-v4-8.17.1.jar
+old: method com.unblu.webapi.model.v4.BranchClientLinkData com.unblu.webapi.model.v4.BranchClientLinkData::autoOpen(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.BranchClientLinkData::isAutoOpen()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.BranchClientLinkData::setAutoOpen(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+

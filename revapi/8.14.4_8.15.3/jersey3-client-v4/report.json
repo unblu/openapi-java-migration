@@ -1,0 +1,3608 @@
+[ {
+  "code" : "java.class.kindChanged",
+  "old" : "class com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'interface'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "interface"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.class.nowAbstract",
+  "old" : "class com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "class now abstract",
+  "description" : "Class is now abstract.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "class com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'com.fasterxml.jackson.annotation.JsonAutoDetect'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonAutoDetect"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonAutoDetect(creatorVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, fieldVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, getterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, isGetterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, setterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE)"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.fasterxml.jackson.annotation.JsonSubTypes'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\")})"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.fasterxml.jackson.annotation.JsonTypeInfo'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonTypeInfo"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonTypeInfo(use = com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME, include = com.fasterxml.jackson.annotation.JsonTypeInfo.As.EXISTING_PROPERTY, property = \"type\", visible = true, defaultImpl = com.unblu.webapi.model.v4.CustomDialogBotData.class)"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::$type(com.unblu.webapi.model.v4.DialogBotData.TypeEnum)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "$type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::accountId(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::accountId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "accountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::automaticTypingStateHandlingEnabled(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "automaticTypingStateHandlingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::botPersonId(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::botPersonId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "botPersonId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::creationTimestamp(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::creationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "creationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::description(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::description(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "description"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData.TypeEnum com.unblu.webapi.model.v4.DialogBotData::get$Type()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "get$Type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getAccountId()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getAccountId()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getAccountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getBotPersonId()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getBotPersonId()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getBotPersonId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getCreationTimestamp()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getCreationTimestamp()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getCreationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getDescription()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getDescription()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getDescription"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getId()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getId()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getModificationTimestamp()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getModificationTimestamp()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getModificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getName()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getName()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOffboardingFilter()",
+  "new" : "method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOffboardingFilter()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOffboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOffboardingOrder()",
+  "new" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOffboardingOrder()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOffboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior com.unblu.webapi.model.v4.DialogBotData::getOnTimeoutBehavior()",
+  "new" : "method com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior com.unblu.webapi.model.v4.DialogBotData::getOnTimeoutBehavior()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOnTimeoutBehavior"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOnboardingFilter()",
+  "new" : "method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOnboardingFilter()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOnboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOnboardingOrder()",
+  "new" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOnboardingOrder()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOnboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getOutboundTimeoutMillis()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getOutboundTimeoutMillis()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getReboardingOrder()",
+  "new" : "method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getReboardingOrder()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getReboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getVersion()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getVersion()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.EWebApiVersion com.unblu.webapi.model.v4.DialogBotData::getWebhookApiVersion()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getWebhookEndpoint()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getWebhookSecret()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.ERegistrationStatus com.unblu.webapi.model.v4.DialogBotData::getWebhookStatus()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::id(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::id(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "id"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isAutomaticTypingStateHandlingEnabled()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "isAutomaticTypingStateHandlingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isMessageStateHandledExternally()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "isMessageStateHandledExternally"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isNeedsCounterpartPresence()",
+  "new" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isNeedsCounterpartPresence()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "isNeedsCounterpartPresence"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isReboardingEnabled()",
+  "new" : "method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isReboardingEnabled()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "isReboardingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::messageStateHandledExternally(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "messageStateHandledExternally"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::modificationTimestamp(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::modificationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "modificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::name(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::name(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "name"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::needsCounterpartPresence(java.lang.Boolean)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::needsCounterpartPresence(java.lang.Boolean)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "needsCounterpartPresence"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "offboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingOrder(java.lang.Integer)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "offboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "onTimeoutBehavior"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "onboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingOrder(java.lang.Integer)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "onboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::outboundTimeoutMillis(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::outboundTimeoutMillis(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingEnabled(java.lang.Boolean)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingEnabled(java.lang.Boolean)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "reboardingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingOrder(java.lang.Integer)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "reboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::set$Type(com.unblu.webapi.model.v4.DialogBotData.TypeEnum)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "set$Type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setAccountId(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setAccountId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAccountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setAutomaticTypingStateHandlingEnabled(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAutomaticTypingStateHandlingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setBotPersonId(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setBotPersonId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setBotPersonId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setCreationTimestamp(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setCreationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setCreationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setDescription(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setDescription(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setDescription"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setId(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setMessageStateHandledExternally(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setMessageStateHandledExternally"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setModificationTimestamp(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setModificationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setModificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setName(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setName(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setNeedsCounterpartPresence(java.lang.Boolean)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setNeedsCounterpartPresence(java.lang.Boolean)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setNeedsCounterpartPresence"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOffboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingOrder(java.lang.Integer)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOffboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOnTimeoutBehavior"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOnboardingFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingOrder(java.lang.Integer)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOnboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setOutboundTimeoutMillis(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setOutboundTimeoutMillis(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setReboardingEnabled(java.lang.Boolean)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setReboardingEnabled(java.lang.Boolean)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setReboardingEnabled"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setReboardingOrder(java.lang.Integer)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setReboardingOrder(java.lang.Integer)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setReboardingOrder"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setVersion(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.DialogBotData::setVersion(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setWebhookApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setWebhookEndpoint(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setWebhookSecret(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.DialogBotData::setWebhookStatus(com.unblu.webapi.model.v4.ERegistrationStatus)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::version(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::version(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "version"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookEndpoint(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookSecret(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookStatus(com.unblu.webapi.model.v4.ERegistrationStatus)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeAdded",
+  "old" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "annotation attribute added",
+  "description" : "Attribute 'com.fasterxml.jackson.annotation.JsonTypeInfo' of annotation '@com.fasterxml.jackson.annotation.JsonTypeInfo(use = com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME, include = com.fasterxml.jackson.annotation.JsonTypeInfo.As.EXISTING_PROPERTY, property = \"type\", visible = true, defaultImpl = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class)' is now explicitly set.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonTypeInfo"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonTypeInfo(use = com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME, include = com.fasterxml.jackson.annotation.JsonTypeInfo.As.EXISTING_PROPERTY, property = \"type\", visible = true, defaultImpl = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class)"
+  }, {
+    "name" : "attribute",
+    "value" : "defaultImpl"
+  }, {
+    "name" : "value",
+    "value" : "com.unblu.webapi.model.v4.CustomSuggestionSourceData.class"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.15.3.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

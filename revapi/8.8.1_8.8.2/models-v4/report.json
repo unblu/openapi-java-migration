@@ -1,0 +1,870 @@
+[ {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.DeputyRelationship com.unblu.webapi.model.v4.DeputyRelationship::escalationLevel(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.DeputyRelationship com.unblu.webapi.model.v4.DeputyRelationship::escalationLevel(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DeputyRelationship"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeputyRelationship"
+  }, {
+    "name" : "methodName",
+    "value" : "escalationLevel"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.DeputyRelationship::getEscalationLevel()",
+  "new" : "method com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.DeputyRelationship::getEscalationLevel()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to  'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DeputyRelationship"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeputyRelationship"
+  }, {
+    "name" : "methodName",
+    "value" : "getEscalationLevel"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.DeputyRelationship::setEscalationLevel(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.DeputyRelationship::setEscalationLevel(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DeputyRelationship"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DeputyRelationship"
+  }, {
+    "name" : "methodName",
+    "value" : "setEscalationLevel"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::getValue()",
+  "new" : "method com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::getValue()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to  'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "getValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::setValue(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::setValue(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "setValue"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::value(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator::value(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "value"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::addValuesItem(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::addValuesItem(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "addValuesItem"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel> com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::getValues()",
+  "new" : "method java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel> com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::getValues()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>' to 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "getValues"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::setValues(===java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::setValues(===java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "setValues"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::values(===java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>===)",
+  "new" : "parameter com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator::values(===java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "InDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "values"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::getValue()",
+  "new" : "method com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::getValue()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to  'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "getValue"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::setValue(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::setValue(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "setValue"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::value(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator::value(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotEqualsDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "value"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::addValuesItem(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::addValuesItem(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "addValuesItem"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel> com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::getValues()",
+  "new" : "method java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel> com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::getValues()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>' to 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "getValues"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::setValues(===java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::setValues(===java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "setValues"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::values(===java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>===)",
+  "new" : "parameter com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator::values(===java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "NotInDeputyDelegationEscalationLevelOperator"
+  }, {
+    "name" : "methodName",
+    "value" : "values"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

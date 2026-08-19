@@ -1,0 +1,80 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.36.1.jar
+New API: models-v4-8.37.2.jar
+old: interface com.unblu.webapi.model.v4.AnalyticsWidgetData
+new: interface com.unblu.webapi.model.v4.AnalyticsWidgetData
+java.annotation.attributeValueChanged: Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = "AVG_HANDLING_TIME"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = "AVG_WAITING_TIME"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = "CALLS_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = "COLLABORATION_LAYERS_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = "CONVERSATIONS_ENDED_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = "MESSAGES_COUNT")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = "AVG_HANDLING_TIME"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = "AVG_RESERVATION_TIME"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = "AVG_WAITING_TIME"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = "CALLS_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = "COLLABORATION_LAYERS_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = "CONVERSATIONS_ENDED_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = "MESSAGES_COUNT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = "QUEUE_INTERACTION_COUNT")}'.
+BINARY: EQUIVALENT, SOURCE: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING
+
+old: method com.unblu.webapi.model.v4.AriaDialogBotData com.unblu.webapi.model.v4.AriaDialogBotData::agenticFlowId(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.AriaDialogBotData::getAgenticFlowId()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.AriaDialogBotData::setAgenticFlowId(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.AriaSuggestionSourceData com.unblu.webapi.model.v4.AriaSuggestionSourceData::agenticFlowId(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.AriaSuggestionSourceData::getAgenticFlowId()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.AriaSuggestionSourceData::setAgenticFlowId(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotDialogClosedEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotDialogCounterpartChanged
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotDialogMessageEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotDialogMessageStateEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotDialogOpenEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotOffboardingOfferEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotOnboardingOfferEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: class com.unblu.webapi.model.v4.BotReboardingOfferEvent
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+

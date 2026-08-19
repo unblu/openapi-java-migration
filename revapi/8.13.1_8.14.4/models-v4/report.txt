@@ -1,0 +1,223 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.13.1.jar
+New API: models-v4-8.14.4.jar
+old: class com.unblu.webapi.model.v4.SuggestionSourceData
+new: interface com.unblu.webapi.model.v4.SuggestionSourceData
+java.class.kindChanged: Class kind changed from 'class' to 'interface'.
+SOURCE: BREAKING, BINARY: BREAKING
+java.class.nowAbstract: Class is now abstract.
+SOURCE: BREAKING, BINARY: BREAKING
+java.annotation.removed: Element no longer annotated with 'com.fasterxml.jackson.annotation.JsonAutoDetect'.
+SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT, BINARY: EQUIVALENT
+java.annotation.added: Element newly annotated with 'com.fasterxml.jackson.annotation.JsonSubTypes'.
+SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT, BINARY: EQUIVALENT
+java.annotation.added: Element newly annotated with 'com.fasterxml.jackson.annotation.JsonTypeInfo'.
+SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT, BINARY: EQUIVALENT
+
+old: enum com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::$type(com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::<init>()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::accountId(java.lang.String)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::accountId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::creationTimestamp(java.lang.Long)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::creationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::description(java.lang.String)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::description(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum com.unblu.webapi.model.v4.SuggestionSourceData::get$Type()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getAccountId()
+new: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getAccountId()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getCreationTimestamp()
+new: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getCreationTimestamp()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getDescription()
+new: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getDescription()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getId()
+new: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getId()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getModificationTimestamp()
+new: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getModificationTimestamp()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getName()
+new: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getName()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.EWebApiVersion com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundApiVersion()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundEndpoint()
+new: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundEndpoint()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundSecret()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.EOutboundEndpointStatus com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundStatus()
+new: method com.unblu.webapi.model.v4.EOutboundEndpointStatus com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundStatus()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundTimeoutMillis()
+new: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundTimeoutMillis()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getVersion()
+new: method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getVersion()
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::id(java.lang.String)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::id(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::modificationTimestamp(java.lang.Long)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::modificationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::name(java.lang.String)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::name(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundEndpoint(java.lang.String)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundEndpoint(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundSecret(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundTimeoutMillis(java.lang.Long)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundTimeoutMillis(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::set$Type(com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setAccountId(java.lang.String)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setAccountId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setCreationTimestamp(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setCreationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setDescription(java.lang.String)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setDescription(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setId(java.lang.String)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setModificationTimestamp(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setModificationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setName(java.lang.String)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setName(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundEndpoint(java.lang.String)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundEndpoint(java.lang.String)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundSecret(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundTimeoutMillis(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundTimeoutMillis(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.SuggestionSourceData::setVersion(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.SuggestionSourceData::setVersion(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::version(java.lang.Long)
+new: method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::version(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+SOURCE: BREAKING, BINARY: BREAKING
+

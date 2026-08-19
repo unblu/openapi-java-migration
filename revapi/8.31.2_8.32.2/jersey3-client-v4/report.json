@@ -1,0 +1,38 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.EMessageType.WHATSAPP_TEMPLATE",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EMessageType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EMessageType"
+  }, {
+    "name" : "fieldName",
+    "value" : "WHATSAPP_TEMPLATE"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.31.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

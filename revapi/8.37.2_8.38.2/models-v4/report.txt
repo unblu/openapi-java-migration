@@ -1,0 +1,49 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.37.2.jar
+New API: models-v4-8.38.2.jar
+old: enum com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: enum com.unblu.webapi.model.v4.ETemplateComponentParemetersType
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getSubType()
+new: method com.unblu.webapi.model.v4.ETemplateComponentParametersSubType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getSubType()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to  'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.ETemplateComponentParemetersType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getType()
+new: method com.unblu.webapi.model.v4.ETemplateComponentParametersType com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::getType()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to  'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setSubType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType===)
+new: parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setSubType(===com.unblu.webapi.model.v4.ETemplateComponentParametersSubType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersType===)
+new: parameter void com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::setType(===com.unblu.webapi.model.v4.ETemplateComponentParametersType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::subType(===com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType===)
+new: parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::subType(===com.unblu.webapi.model.v4.ETemplateComponentParametersSubType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersSubType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersSubType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::type(===com.unblu.webapi.model.v4.ETemplateComponentParemetersType===)
+new: parameter com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters com.unblu.webapi.model.v4.WhatsAppTemplateComponentParameters::type(===com.unblu.webapi.model.v4.ETemplateComponentParametersType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.ETemplateComponentParemetersType' to 'com.unblu.webapi.model.v4.ETemplateComponentParametersType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+

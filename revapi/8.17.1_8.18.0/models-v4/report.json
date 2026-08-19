@@ -1,0 +1,246 @@
+[ {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::getType()",
+  "new" : "method com.unblu.webapi.model.v4.EAuxiliaryCameraType com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::getType()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to  'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAuxiliaryCameraType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "methodName",
+    "value" : "getType"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.17.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::setType(===com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::setType(===com.unblu.webapi.model.v4.EAuxiliaryCameraType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to 'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAuxiliaryCameraType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "methodName",
+    "value" : "setType"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.17.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::type(===com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType===)",
+  "new" : "parameter com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::type(===com.unblu.webapi.model.v4.EAuxiliaryCameraType===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to 'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.EAuxiliaryCameraType"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchClientAuxiliaryCameraData"
+  }, {
+    "name" : "methodName",
+    "value" : "type"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.17.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.ChatSuggestionResponse",
+  "new" : "interface com.unblu.webapi.model.v4.ChatSuggestionResponse",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmptyChatSuggestionResponse.class, name = \"EMPTY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextChatSuggestionResponse.class, name = \"TEXT\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthenticationRequiredChatSuggestionResponse.class, name = \"AUTHENTICATION_REQUIRED\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmptyChatSuggestionResponse.class, name = \"EMPTY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextChatSuggestionResponse.class, name = \"TEXT\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthenticationRequiredChatSuggestionResponse.class, name = \"AUTHENTICATION_REQUIRED\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmptyChatSuggestionResponse.class, name = \"EMPTY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextChatSuggestionResponse.class, name = \"TEXT\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmptyChatSuggestionResponse.class, name = \"EMPTY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextChatSuggestionResponse.class, name = \"TEXT\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AuthenticationRequiredChatSuggestionResponse.class, name = \"AUTHENTICATION_REQUIRED\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EmptyChatSuggestionResponse.class, name = \"EMPTY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextChatSuggestionResponse.class, name = \"TEXT\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ChatSuggestionResponse"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ChatSuggestionResponse"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.17.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.18.0.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "enum com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EBranchClientAuxiliaryCameraType"
+  }, {
+    "name" : "elementKind",
+    "value" : "enum"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.17.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

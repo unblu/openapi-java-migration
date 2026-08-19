@@ -1,0 +1,77 @@
+[
+  {
+    "extension": "revapi.java",
+    "configuration": {
+      "missing-classes": {
+        "behavior": "report"
+      }
+    }
+  },
+  {
+    "extension": "revapi.filter",
+    "configuration": {
+      "archives": {
+        "include": [
+          "(models-v4|jersey3-client-v4)-[0-9].*\\.jar"
+        ]
+      }
+    }
+  },
+  {
+    "extension": "revapi.differences",
+    "configuration": {
+      "differences": [
+        {
+          "regex": true,
+          "code": "java\\.annotation\\..*",
+          "annotationType": "io\\.swagger\\.annotations\\..*",
+          "ignore": true,
+          "justification": "The io.swagger.annotations.* annotations are purely descriptive. A change to one of them is equivalent to a javadoc update and is not an API change."
+        },
+        {
+          "regex": true,
+          "code": "java\\.annotation\\..*",
+          "annotationType": "com\\.fasterxml\\.jackson\\.annotation\\.JsonPropertyOrder",
+          "ignore": true,
+          "justification": "@JsonPropertyOrder only affects the order of the fields in the serialized JSON, which is not part of the API contract."
+        },
+        {
+          "code": "java.class.externalClassExposedInAPI",
+          "ignore": true,
+          "justification": "A model type used in a jersey3-client-v4 signature is defined in models-v4. Its changes are tracked in the models-v4 report."
+        },
+        {
+          "code": "java.field.enumConstantOrderChanged",
+          "ignore": true,
+          "justification": "The order of the constants of a generated enum shifts whenever a value is inserted alphabetically. It only matters to code relying on ordinal(), which no client should do against a generated enum: the wire format uses the names."
+        },
+        {
+          "regex": true,
+          "code": "java\\.field\\.removedWithConstant",
+          "old": ".*\\.JSON_PROPERTY_.*",
+          "ignore": true,
+          "justification": "The JSON_PROPERTY_* constants are a generation detail of the model classes, not part of the API a client uses."
+        },
+        {
+          "code": "java.method.addedToInterface",
+          "ignore": true,
+          "justification": "The model interfaces exist only to type the polymorphic model classes generated next to them. They are not meant to be implemented outside the generated code, so adding a method to one breaks nobody."
+        },
+        {
+          "code": "java.method.parameterTypeChanged",
+          "classify": {
+            "SOURCE": "BREAKING"
+          },
+          "justification": "A changed parameter type means the call no longer compiles."
+        },
+        {
+          "code": "java.element.nowDeprecated",
+          "classify": {
+            "SEMANTIC": "POTENTIALLY_BREAKING"
+          },
+          "justification": "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see."
+        }
+      ]
+    }
+  }
+]

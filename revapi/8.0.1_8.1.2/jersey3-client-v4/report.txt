@@ -1,0 +1,1155 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.0.1.jar
+New API: jersey3-client-v4-8.1.2.jar
+old: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreate(com.unblu.webapi.model.v4.Account, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreate(com.unblu.webapi.model.v4.Account, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.AccountUserContainer com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateAccountWithNewAdmin(com.unblu.webapi.model.v4.AccountUserContainer, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.AccountUserContainer com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateAccountWithNewAdmin(com.unblu.webapi.model.v4.AccountUserContainer, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountUserContainer> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateAccountWithNewAdminWithHttpInfo(com.unblu.webapi.model.v4.AccountUserContainer, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountUserContainer> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateAccountWithNewAdminWithHttpInfo(com.unblu.webapi.model.v4.AccountUserContainer, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateWithHttpInfo(com.unblu.webapi.model.v4.Account, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsCreateWithHttpInfo(com.unblu.webapi.model.v4.Account, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetByName(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetByName(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetByNameWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetByNameWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetCurrentAccount(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetCurrentAccount(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetCurrentAccountWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsGetCurrentAccountWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.AccountList com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.AccountList com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountList> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountList> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.AccountResult com.unblu.webapi.jersey.v4.api.AccountsApi::accountsSearch(com.unblu.webapi.model.v4.AccountQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.AccountResult com.unblu.webapi.jersey.v4.api.AccountsApi::accountsSearch(com.unblu.webapi.model.v4.AccountQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountResult> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsSearchWithHttpInfo(com.unblu.webapi.model.v4.AccountQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.AccountResult> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsSearchWithHttpInfo(com.unblu.webapi.model.v4.AccountQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsUpdate(com.unblu.webapi.model.v4.Account, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Account com.unblu.webapi.jersey.v4.api.AccountsApi::accountsUpdate(com.unblu.webapi.model.v4.Account, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Account, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Account> com.unblu.webapi.jersey.v4.api.AccountsApi::accountsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Account, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysCreate(com.unblu.webapi.model.v4.ApiKey, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysCreate(com.unblu.webapi.model.v4.ApiKey, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysCreateWithHttpInfo(com.unblu.webapi.model.v4.ApiKey, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysCreateWithHttpInfo(com.unblu.webapi.model.v4.ApiKey, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetByKey(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetByKey(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetByKeyWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetByKeyWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetDefault(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetDefault(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetDefaultWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysGetDefaultWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKeyList com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKeyList com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKeyList> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKeyList> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKeyResult com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysSearch(com.unblu.webapi.model.v4.ApiKeyQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKeyResult com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysSearch(com.unblu.webapi.model.v4.ApiKeyQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKeyResult> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysSearchWithHttpInfo(com.unblu.webapi.model.v4.ApiKeyQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKeyResult> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysSearchWithHttpInfo(com.unblu.webapi.model.v4.ApiKeyQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysUpdate(com.unblu.webapi.model.v4.ApiKey, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ApiKey com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysUpdate(com.unblu.webapi.model.v4.ApiKey, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysUpdateWithHttpInfo(com.unblu.webapi.model.v4.ApiKey, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ApiKey> com.unblu.webapi.jersey.v4.api.ApiKeysApi::apiKeysUpdateWithHttpInfo(com.unblu.webapi.model.v4.ApiKey, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.AuthenticatorApi::authenticatorGetCurrentPerson(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.AuthenticatorApi::authenticatorGetCurrentPerson(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.AuthenticatorApi::authenticatorGetCurrentPersonWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.AuthenticatorApi::authenticatorGetCurrentPersonWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationHistoryData com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistoryRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationHistoryData com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistoryRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationHistoryData> com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistoryReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationHistoryData> com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistoryReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationHistoryDataResult com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistorySearch(com.unblu.webapi.model.v4.ConversationHistoryQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationHistoryDataResult com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistorySearch(com.unblu.webapi.model.v4.ConversationHistoryQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationHistoryDataResult> com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistorySearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationHistoryQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationHistoryDataResult> com.unblu.webapi.jersey.v4.api.ConversationHistoryApi::conversationHistorySearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationHistoryQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesCreate(com.unblu.webapi.model.v4.ConversationTemplate, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesCreate(com.unblu.webapi.model.v4.ConversationTemplate, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesCreateWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplate, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesCreateWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplate, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesGetDefaultTemplateByEngagementType(com.unblu.webapi.model.v4.EInitialEngagementType, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesGetDefaultTemplateByEngagementType(com.unblu.webapi.model.v4.EInitialEngagementType, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesGetDefaultTemplateByEngagementTypeWithHttpInfo(com.unblu.webapi.model.v4.EInitialEngagementType, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesGetDefaultTemplateByEngagementTypeWithHttpInfo(com.unblu.webapi.model.v4.EInitialEngagementType, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplateList com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplateList com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplateList> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplateList> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplateResult com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesSearch(com.unblu.webapi.model.v4.ConversationTemplateQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplateResult com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesSearch(com.unblu.webapi.model.v4.ConversationTemplateQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplateResult> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesSearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplateQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplateResult> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesSearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplateQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesUpdate(com.unblu.webapi.model.v4.ConversationTemplate, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationTemplate com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesUpdate(com.unblu.webapi.model.v4.ConversationTemplate, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesUpdateWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplate, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationTemplate> com.unblu.webapi.jersey.v4.api.ConversationTemplatesApi::conversationTemplatesUpdateWithHttpInfo(com.unblu.webapi.model.v4.ConversationTemplate, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddExternalParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddExternalParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddExternalParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddExternalParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddExternalParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddExternalParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddExternalParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddExternalParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsAddParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsAddParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsChangeParticipantVisibility(java.lang.String, com.unblu.webapi.model.v4.ConversationsChangeParticipantVisibilityBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsChangeParticipantVisibility(java.lang.String, com.unblu.webapi.model.v4.ConversationsChangeParticipantVisibilityBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsChangeParticipantVisibilityWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsChangeParticipantVisibilityBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsChangeParticipantVisibilityWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsChangeParticipantVisibilityBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsCreate(com.unblu.webapi.model.v4.ConversationCreationData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsCreate(com.unblu.webapi.model.v4.ConversationCreationData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsCreateWithHttpInfo(com.unblu.webapi.model.v4.ConversationCreationData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsCreateWithHttpInfo(com.unblu.webapi.model.v4.ConversationCreationData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsEnd(java.lang.String, com.unblu.webapi.model.v4.ConversationsEndBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsEnd(java.lang.String, com.unblu.webapi.model.v4.ConversationsEndBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsEndWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsEndBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsEndWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsEndBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsGetBySourceIdAndChannelId(java.lang.String, java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsGetBySourceIdAndChannelId(java.lang.String, java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsGetBySourceIdAndChannelIdWithHttpInfo(java.lang.String, java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsGetBySourceIdAndChannelIdWithHttpInfo(java.lang.String, java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsOffboardParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsOffboardParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsOffboardParticipant(java.lang.String, com.unblu.webapi.model.v4.ConversationsOffboardParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsOffboardParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsOffboardParticipantBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsOffboardParticipantWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsOffboardParticipantBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationResult com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSearch(com.unblu.webapi.model.v4.ConversationQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationResult com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSearch(com.unblu.webapi.model.v4.ConversationQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationResult> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationResult> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSearchWithHttpInfo(com.unblu.webapi.model.v4.ConversationQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAssigneePerson(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAssigneePersonBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAssigneePerson(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAssigneePersonBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAssigneePersonWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAssigneePersonBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAssigneePersonWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAssigneePersonBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAwaitedPersonType(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAwaitedPersonTypeBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAwaitedPersonType(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAwaitedPersonTypeBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAwaitedPersonTypeWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAwaitedPersonTypeBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetAwaitedPersonTypeWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetAwaitedPersonTypeBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetContextPerson(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetContextPersonBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetContextPerson(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetContextPersonBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetContextPersonWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetContextPersonBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetContextPersonWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetContextPersonBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetLocale(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetLocaleBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetLocale(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetLocaleBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetLocaleWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetLocaleBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetLocaleWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetLocaleBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetRecipient(java.lang.String, com.unblu.webapi.model.v4.ConversationRecipientData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetRecipient(java.lang.String, com.unblu.webapi.model.v4.ConversationRecipientData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetRecipientWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationRecipientData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetRecipientWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationRecipientData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetScheduledTimestamp(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetScheduledTimestampBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetScheduledTimestamp(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetScheduledTimestampBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetScheduledTimestampWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetScheduledTimestampBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetScheduledTimestampWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetScheduledTimestampBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetStarred(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetStarredBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetStarred(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetStarredBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetStarredWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetStarredBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetStarredWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetStarredBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetTopic(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetTopicBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetTopic(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetTopicBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetTopicWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetTopicBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetTopicWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetTopicBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisibility(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisibilityBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisibility(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisibilityBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisibilityWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisibilityBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisibilityWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisibilityBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisitorData(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisitorDataBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisitorData(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisitorDataBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisitorDataWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisitorDataBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsSetVisitorDataWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.ConversationsSetVisitorDataBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateConfiguration(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateConfiguration(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateConfigurationWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateConfigurationWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateMetadata(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateMetadata(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateMetadataWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateMetadataWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateText(java.lang.String, java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.String>>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ConversationData com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateText(java.lang.String, java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.String>>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateTextWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.String>>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ConversationData> com.unblu.webapi.jersey.v4.api.ConversationsApi::conversationsUpdateTextWithHttpInfo(java.lang.String, java.util.Map<java.lang.String, java.util.Map<java.lang.String, java.lang.String>>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsCreate(com.unblu.webapi.model.v4.CustomActionData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsCreate(com.unblu.webapi.model.v4.CustomActionData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsCreateWithHttpInfo(com.unblu.webapi.model.v4.CustomActionData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsCreateWithHttpInfo(com.unblu.webapi.model.v4.CustomActionData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsUpdate(com.unblu.webapi.model.v4.CustomActionData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.CustomActionData com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsUpdate(com.unblu.webapi.model.v4.CustomActionData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsUpdateWithHttpInfo(com.unblu.webapi.model.v4.CustomActionData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomActionData> com.unblu.webapi.jersey.v4.api.CustomActionsApi::customActionsUpdateWithHttpInfo(com.unblu.webapi.model.v4.CustomActionData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersCreate(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersCreate(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersCreateWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersCreateWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersGetByName(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersGetByName(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersGetByNameWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersGetByNameWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearch(com.unblu.webapi.model.v4.ExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearch(com.unblu.webapi.model.v4.ExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.CustomExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchCustom(com.unblu.webapi.model.v4.CustomExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.CustomExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchCustom(com.unblu.webapi.model.v4.CustomExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchCustomWithHttpInfo(com.unblu.webapi.model.v4.CustomExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.CustomExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchCustomWithHttpInfo(com.unblu.webapi.model.v4.CustomExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.SmsExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchSms(com.unblu.webapi.model.v4.SmsExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.SmsExternalMessengerChannelResult com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchSms(com.unblu.webapi.model.v4.SmsExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SmsExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchSmsWithHttpInfo(com.unblu.webapi.model.v4.SmsExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.SmsExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchSmsWithHttpInfo(com.unblu.webapi.model.v4.SmsExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannelQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannelResult> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersSearchWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannelQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersUpdate(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersUpdate(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersUpdateWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.ExternalMessengerChannel> com.unblu.webapi.jersey.v4.api.ExternalMessengersApi::externalMessengersUpdateWithHttpInfo(com.unblu.webapi.model.v4.ExternalMessengerChannel, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalInstallLicense(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalInstallLicense(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalInstallLicenseWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalInstallLicenseWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.jersey.v4.api.GlobalApi::globalPing() throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.model.v4.GlobalPingResponse com.unblu.webapi.jersey.v4.api.GlobalApi::globalPing() throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.returnTypeChanged: The return type changed from 'void' to  'com.unblu.webapi.model.v4.GlobalPingResponse'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<java.lang.Void> com.unblu.webapi.jersey.v4.api.GlobalApi::globalPingWithHttpInfo() throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalPingResponse> com.unblu.webapi.jersey.v4.api.GlobalApi::globalPingWithHttpInfo() throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.returnTypeTypeParametersChanged: The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<java.lang.Void>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalPingResponse>'.
+SOURCE: BREAKING, BINARY: NON_BREAKING
+
+old: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalRead(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalRead(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalReadWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalReadWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalRemoveLicense(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalRemoveLicense(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalRemoveLicenseWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalRemoveLicenseWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalUpdate(com.unblu.webapi.model.v4.GlobalData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.GlobalData com.unblu.webapi.jersey.v4.api.GlobalApi::globalUpdate(com.unblu.webapi.model.v4.GlobalData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalUpdateWithHttpInfo(com.unblu.webapi.model.v4.GlobalData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.GlobalData> com.unblu.webapi.jersey.v4.api.GlobalApi::globalUpdateWithHttpInfo(com.unblu.webapi.model.v4.GlobalData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasCreate(com.unblu.webapi.model.v4.NamedArea, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasCreate(com.unblu.webapi.model.v4.NamedArea, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasCreateWithHttpInfo(com.unblu.webapi.model.v4.NamedArea, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasCreateWithHttpInfo(com.unblu.webapi.model.v4.NamedArea, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.NamedAreaList com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.NamedAreaList com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedAreaList> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedAreaList> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.NamedAreaResult com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasSearch(com.unblu.webapi.model.v4.NamedAreaQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.NamedAreaResult com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasSearch(com.unblu.webapi.model.v4.NamedAreaQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedAreaResult> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasSearchWithHttpInfo(com.unblu.webapi.model.v4.NamedAreaQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedAreaResult> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasSearchWithHttpInfo(com.unblu.webapi.model.v4.NamedAreaQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasUpdate(com.unblu.webapi.model.v4.NamedArea, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.NamedArea com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasUpdate(com.unblu.webapi.model.v4.NamedArea, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasUpdateWithHttpInfo(com.unblu.webapi.model.v4.NamedArea, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.NamedArea> com.unblu.webapi.jersey.v4.api.NamedAreasApi::namedAreasUpdateWithHttpInfo(com.unblu.webapi.model.v4.NamedArea, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsAddLabels(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsAddLabels(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsAddLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsAddLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateBot(com.unblu.webapi.model.v4.PersonData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateBot(com.unblu.webapi.model.v4.PersonData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateBotWithHttpInfo(com.unblu.webapi.model.v4.PersonData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateBotWithHttpInfo(com.unblu.webapi.model.v4.PersonData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateVirtual(com.unblu.webapi.model.v4.PersonData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateVirtual(com.unblu.webapi.model.v4.PersonData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateVirtualWithHttpInfo(com.unblu.webapi.model.v4.PersonData, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsCreateOrUpdateVirtualWithHttpInfo(com.unblu.webapi.model.v4.PersonData, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsGetBySource(com.unblu.webapi.model.v4.EPersonSource, java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsGetBySource(com.unblu.webapi.model.v4.EPersonSource, java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsGetBySourceWithHttpInfo(com.unblu.webapi.model.v4.EPersonSource, java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsGetBySourceWithHttpInfo(com.unblu.webapi.model.v4.EPersonSource, java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsRemoveLabels(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsRemoveLabels(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsRemoveLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsRemoveLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearch(com.unblu.webapi.model.v4.PersonQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearch(com.unblu.webapi.model.v4.PersonQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchAgents(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchAgents(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchAgentsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchAgentsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchBots(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchBots(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchBotsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchBotsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchVisitors(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonResult com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchVisitors(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchVisitorsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchVisitorsWithHttpInfo(com.unblu.webapi.model.v4.PersonTypedQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchWithHttpInfo(com.unblu.webapi.model.v4.PersonQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonResult> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSearchWithHttpInfo(com.unblu.webapi.model.v4.PersonQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsSetLabels(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.jersey.v4.api.PersonsApi::personsSetLabels(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSetLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonData> com.unblu.webapi.jersey.v4.api.PersonsApi::personsSetLabelsWithHttpInfo(java.lang.String, java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsCreate(com.unblu.webapi.model.v4.Team, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsCreate(com.unblu.webapi.model.v4.Team, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsCreateWithHttpInfo(com.unblu.webapi.model.v4.Team, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsCreateWithHttpInfo(com.unblu.webapi.model.v4.Team, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.TeamList com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetChildTeams(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.TeamList com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetChildTeams(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamList> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetChildTeamsWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamList> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetChildTeamsWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetTeamOfCurrentUser(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetTeamOfCurrentUser(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetTeamOfCurrentUserWithHttpInfo(===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsGetTeamOfCurrentUserWithHttpInfo(===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.TeamList com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.TeamList com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamList> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamList> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.TeamResult com.unblu.webapi.jersey.v4.api.TeamsApi::teamsSearch(com.unblu.webapi.model.v4.TeamQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.TeamResult com.unblu.webapi.jersey.v4.api.TeamsApi::teamsSearch(com.unblu.webapi.model.v4.TeamQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamResult> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsSearchWithHttpInfo(com.unblu.webapi.model.v4.TeamQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.TeamResult> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsSearchWithHttpInfo(com.unblu.webapi.model.v4.TeamQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsUpdate(com.unblu.webapi.model.v4.Team, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.Team com.unblu.webapi.jersey.v4.api.TeamsApi::teamsUpdate(com.unblu.webapi.model.v4.Team, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Team, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Team> com.unblu.webapi.jersey.v4.api.TeamsApi::teamsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Team, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreate(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreate(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithPassword(com.unblu.webapi.model.v4.UserPasswordContainer, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithPassword(com.unblu.webapi.model.v4.UserPasswordContainer, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithPasswordWithHttpInfo(com.unblu.webapi.model.v4.UserPasswordContainer, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithPasswordWithHttpInfo(com.unblu.webapi.model.v4.UserPasswordContainer, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithRandomPassword(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithRandomPassword(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithRandomPasswordWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersCreateWithRandomPasswordWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersGetByUsername(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersGetByUsername(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersGetByUsernameWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersGetByUsernameWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersRead(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersRead(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.UserList com.unblu.webapi.jersey.v4.api.UsersApi::usersReadMultiple(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.UserList com.unblu.webapi.jersey.v4.api.UsersApi::usersReadMultiple(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.UserList> com.unblu.webapi.jersey.v4.api.UsersApi::usersReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.UserList> com.unblu.webapi.jersey.v4.api.UsersApi::usersReadMultipleWithHttpInfo(java.util.List<java.lang.String>, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersReadWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersReadWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersRemovePassword(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersRemovePassword(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersRemovePasswordWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersRemovePasswordWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.UserResult com.unblu.webapi.jersey.v4.api.UsersApi::usersSearch(com.unblu.webapi.model.v4.UserQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.UserResult com.unblu.webapi.jersey.v4.api.UsersApi::usersSearch(com.unblu.webapi.model.v4.UserQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.UserResult> com.unblu.webapi.jersey.v4.api.UsersApi::usersSearchWithHttpInfo(com.unblu.webapi.model.v4.UserQuery, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.UserResult> com.unblu.webapi.jersey.v4.api.UsersApi::usersSearchWithHttpInfo(com.unblu.webapi.model.v4.UserQuery, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersSetPassword(java.lang.String, com.unblu.webapi.model.v4.UsersSetPasswordBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersSetPassword(java.lang.String, com.unblu.webapi.model.v4.UsersSetPasswordBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersSetPasswordWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.UsersSetPasswordBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersSetPasswordWithHttpInfo(java.lang.String, com.unblu.webapi.model.v4.UsersSetPasswordBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersSetRandomPassword(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersSetRandomPassword(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersSetRandomPasswordWithHttpInfo(java.lang.String, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersSetRandomPasswordWithHttpInfo(java.lang.String, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersTransformVirtualToPhysical(com.unblu.webapi.model.v4.UsersTransformVirtualToPhysicalBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersTransformVirtualToPhysical(com.unblu.webapi.model.v4.UsersTransformVirtualToPhysicalBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersTransformVirtualToPhysicalWithHttpInfo(com.unblu.webapi.model.v4.UsersTransformVirtualToPhysicalBody, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersTransformVirtualToPhysicalWithHttpInfo(com.unblu.webapi.model.v4.UsersTransformVirtualToPhysicalBody, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersUpdate(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.model.v4.User com.unblu.webapi.jersey.v4.api.UsersApi::usersUpdate(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersUpdateWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.lang.String===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.User> com.unblu.webapi.jersey.v4.api.UsersApi::usersUpdateWithHttpInfo(com.unblu.webapi.model.v4.User, ===java.util.List<com.unblu.webapi.model.v4.ExpandFields>===) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.parameterTypeChanged: The type of the parameter changed from 'java.lang.String' to 'java.util.List<com.unblu.webapi.model.v4.ExpandFields>'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+

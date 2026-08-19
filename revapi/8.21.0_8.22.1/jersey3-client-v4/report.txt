@@ -1,0 +1,65 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.21.0.jar
+New API: jersey3-client-v4-8.22.1.jar
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesCreate(com.unblu.webapi.model.v4.BranchData) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesCreate(com.unblu.webapi.model.v4.BranchData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesCreateWithHttpInfo(com.unblu.webapi.model.v4.BranchData) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesCreateWithHttpInfo(com.unblu.webapi.model.v4.BranchData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesRead(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesReadWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesUpdate(com.unblu.webapi.model.v4.BranchData) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.jersey.v4.api.BranchesApi::branchesUpdate(com.unblu.webapi.model.v4.BranchData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesUpdateWithHttpInfo(com.unblu.webapi.model.v4.BranchData) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+new: method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.BranchData> com.unblu.webapi.jersey.v4.api.BranchesApi::branchesUpdateWithHttpInfo(com.unblu.webapi.model.v4.BranchData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException
+java.method.numberOfParametersChanged: The number of parameters of the method have changed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlan(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlanFileUrl(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlan()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlanFileUrl()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.BranchData::setFloorPlan(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.BranchData::setFloorPlanFileUrl(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+

@@ -1,0 +1,20 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.26.2.jar
+New API: models-v4-8.27.2.jar
+old: method java.lang.String com.unblu.webapi.model.v4.TextMessageTranslation::getTranslatedText()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.TextMessageTranslation::setTranslatedText(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.TextMessageTranslation com.unblu.webapi.model.v4.TextMessageTranslation::translatedText(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+

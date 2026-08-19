@@ -1,0 +1,6 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.12.1.jar
+New API: jersey3-client-v4-8.13.1.jar
+

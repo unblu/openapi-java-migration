@@ -1,0 +1,2080 @@
+[ {
+  "code" : "java.class.kindChanged",
+  "old" : "class com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "class kind changed",
+  "description" : "Class kind changed from 'class' to 'interface'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldKind",
+    "value" : "class"
+  }, {
+    "name" : "newKind",
+    "value" : "interface"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.class.nowAbstract",
+  "old" : "class com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "class now abstract",
+  "description" : "Class is now abstract.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.removed",
+  "old" : "class com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "removed annotation",
+  "description" : "Element no longer annotated with 'com.fasterxml.jackson.annotation.JsonAutoDetect'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonAutoDetect"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonAutoDetect(creatorVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, fieldVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, getterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, isGetterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE, setterVisibility = com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE)"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.fasterxml.jackson.annotation.JsonSubTypes'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\")})"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.added",
+  "old" : "class com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "new annotation",
+  "description" : "Element newly annotated with 'com.fasterxml.jackson.annotation.JsonTypeInfo'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonTypeInfo"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonTypeInfo(use = com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME, include = com.fasterxml.jackson.annotation.JsonTypeInfo.As.EXISTING_PROPERTY, property = \"type\", visible = true)"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::$type(com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "$type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::<init>()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "<init>"
+  }, {
+    "name" : "elementKind",
+    "value" : "constructor"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::accountId(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::accountId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "accountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::creationTimestamp(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::creationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "creationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::description(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::description(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "description"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum com.unblu.webapi.model.v4.SuggestionSourceData::get$Type()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "get$Type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getAccountId()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getAccountId()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getAccountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getCreationTimestamp()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getCreationTimestamp()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getCreationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getDescription()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getDescription()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getDescription"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getId()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getId()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getModificationTimestamp()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getModificationTimestamp()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getModificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getName()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getName()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.EWebApiVersion com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundApiVersion()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundEndpoint()",
+  "new" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundEndpoint()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundSecret()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.EOutboundEndpointStatus com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundStatus()",
+  "new" : "method com.unblu.webapi.model.v4.EOutboundEndpointStatus com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundStatus()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundTimeoutMillis()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getOutboundTimeoutMillis()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getOutboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getVersion()",
+  "new" : "method java.lang.Long com.unblu.webapi.model.v4.SuggestionSourceData::getVersion()",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::id(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::id(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "id"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::modificationTimestamp(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::modificationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "modificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::name(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::name(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "name"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundEndpoint(java.lang.String)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundEndpoint(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundSecret(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundTimeoutMillis(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::outboundTimeoutMillis(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "outboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::set$Type(com.unblu.webapi.model.v4.SuggestionSourceData.TypeEnum)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "set$Type"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setAccountId(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setAccountId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAccountId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setCreationTimestamp(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setCreationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setCreationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setDescription(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setDescription(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setDescription"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setId(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setId(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setModificationTimestamp(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setModificationTimestamp(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setModificationTimestamp"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setName(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setName(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundApiVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundEndpoint(java.lang.String)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundEndpoint(java.lang.String)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundEndpoint"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundSecret(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundSecret"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundStatus(com.unblu.webapi.model.v4.EOutboundEndpointStatus)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundStatus"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundTimeoutMillis(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setOutboundTimeoutMillis(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setOutboundTimeoutMillis"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setVersion(java.lang.Long)",
+  "new" : "method void com.unblu.webapi.model.v4.SuggestionSourceData::setVersion(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setVersion"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.nowAbstract",
+  "old" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::version(java.lang.Long)",
+  "new" : "method com.unblu.webapi.model.v4.SuggestionSourceData com.unblu.webapi.model.v4.SuggestionSourceData::version(java.lang.Long)",
+  "name" : "Method now abstract",
+  "description" : "Method now abstract",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldModifiers",
+    "value" : "public"
+  }, {
+    "name" : "newModifiers",
+    "value" : "public abstract"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "version"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.13.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.14.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

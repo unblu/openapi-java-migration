@@ -1,0 +1,10 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.3.1.jar
+New API: models-v4-8.4.2.jar
+old: field com.unblu.webapi.model.v4.EOffboardingReason.EXTERNAL_CHANNEL_CLOSED
+new: <none>
+java.field.removed: Field removed from class.
+SOURCE: BREAKING, BINARY: BREAKING
+

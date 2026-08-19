@@ -1,0 +1,22 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.8.1.jar
+New API: jersey3-client-v4-8.8.2.jar
+old: parameter com.unblu.webapi.model.v4.DeputyRelationship com.unblu.webapi.model.v4.DeputyRelationship::escalationLevel(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)
+new: parameter com.unblu.webapi.model.v4.DeputyRelationship com.unblu.webapi.model.v4.DeputyRelationship::escalationLevel(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.DeputyRelationship::getEscalationLevel()
+new: method com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel com.unblu.webapi.model.v4.DeputyRelationship::getEscalationLevel()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to  'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.DeputyRelationship::setEscalationLevel(===com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel===)
+new: parameter void com.unblu.webapi.model.v4.DeputyRelationship::setEscalationLevel(===com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.EDeputyDelegationEscalationLevel' to 'com.unblu.webapi.model.v4.EAssistantAndDeputyDelegationEscalationLevel'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+

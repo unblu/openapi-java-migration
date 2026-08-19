@@ -1,0 +1,223 @@
+[ {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlan(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "floorPlan"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.BranchData com.unblu.webapi.model.v4.BranchData::floorPlanFileUrl(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "floorPlanFileUrl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlan()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "getFloorPlan"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.BranchData::getFloorPlanFileUrl()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "getFloorPlanFileUrl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.BranchData::setFloorPlan(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "setFloorPlan"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.BranchData::setFloorPlanFileUrl(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BranchData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BranchData"
+  }, {
+    "name" : "methodName",
+    "value" : "setFloorPlanFileUrl"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.21.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

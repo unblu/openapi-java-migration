@@ -1,0 +1,96 @@
+[ {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.CannedResponseSearchFilter",
+  "new" : "interface com.unblu.webapi.model.v4.CannedResponseSearchFilter",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.KeyCannedResponseSearchFilter.class, name = \"KEY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = \"MODIFICATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = \"OWNER_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = \"OWNER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = \"TITLE\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = \"MODIFICATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = \"OWNER_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = \"OWNER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = \"TITLE\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = \"MODIFICATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = \"OWNER_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = \"OWNER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = \"TITLE\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.KeyCannedResponseSearchFilter.class, name = \"KEY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = \"MODIFICATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = \"OWNER_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = \"OWNER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = \"TITLE\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampCannedResponseSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ModificationTimestampCannedResponseSearchFilter.class, name = \"MODIFICATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerIdCannedResponseSearchFilter.class, name = \"OWNER_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.OwnerTypeCannedResponseSearchFilter.class, name = \"OWNER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextCannedResponseSearchFilter.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TitleCannedResponseSearchFilter.class, name = \"TITLE\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.CannedResponseSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CannedResponseSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.3.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.ECannedResponseSearchFilterField.KEY",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ECannedResponseSearchFilterField"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ECannedResponseSearchFilterField"
+  }, {
+    "name" : "fieldName",
+    "value" : "KEY"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.2.0.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

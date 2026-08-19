@@ -1,0 +1,393 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.14.4.jar
+New API: models-v4-8.15.3.jar
+old: class com.unblu.webapi.model.v4.DialogBotData
+new: interface com.unblu.webapi.model.v4.DialogBotData
+java.class.kindChanged: Class kind changed from 'class' to 'interface'.
+BINARY: BREAKING, SOURCE: BREAKING
+java.class.nowAbstract: Class is now abstract.
+BINARY: BREAKING, SOURCE: BREAKING
+java.annotation.removed: Element no longer annotated with 'com.fasterxml.jackson.annotation.JsonAutoDetect'.
+BINARY: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT
+java.annotation.added: Element newly annotated with 'com.fasterxml.jackson.annotation.JsonSubTypes'.
+BINARY: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT
+java.annotation.added: Element newly annotated with 'com.fasterxml.jackson.annotation.JsonTypeInfo'.
+BINARY: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT
+
+old: enum com.unblu.webapi.model.v4.DialogBotData.TypeEnum
+new: <none>
+java.class.removed: Class was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::$type(com.unblu.webapi.model.v4.DialogBotData.TypeEnum)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::<init>()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::accountId(java.lang.String)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::accountId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::automaticTypingStateHandlingEnabled(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::botPersonId(java.lang.String)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::botPersonId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::creationTimestamp(java.lang.Long)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::creationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::description(java.lang.String)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::description(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData.TypeEnum com.unblu.webapi.model.v4.DialogBotData::get$Type()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getAccountId()
+new: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getAccountId()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getBotPersonId()
+new: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getBotPersonId()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getCreationTimestamp()
+new: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getCreationTimestamp()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getDescription()
+new: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getDescription()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getId()
+new: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getId()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getModificationTimestamp()
+new: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getModificationTimestamp()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getName()
+new: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getName()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOffboardingFilter()
+new: method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOffboardingFilter()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOffboardingOrder()
+new: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOffboardingOrder()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior com.unblu.webapi.model.v4.DialogBotData::getOnTimeoutBehavior()
+new: method com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior com.unblu.webapi.model.v4.DialogBotData::getOnTimeoutBehavior()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOnboardingFilter()
+new: method com.unblu.webapi.model.v4.EBotDialogFilter com.unblu.webapi.model.v4.DialogBotData::getOnboardingFilter()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOnboardingOrder()
+new: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getOnboardingOrder()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getOutboundTimeoutMillis()
+new: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getOutboundTimeoutMillis()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getReboardingOrder()
+new: method java.lang.Integer com.unblu.webapi.model.v4.DialogBotData::getReboardingOrder()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getVersion()
+new: method java.lang.Long com.unblu.webapi.model.v4.DialogBotData::getVersion()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.EWebApiVersion com.unblu.webapi.model.v4.DialogBotData::getWebhookApiVersion()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getWebhookEndpoint()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.String com.unblu.webapi.model.v4.DialogBotData::getWebhookSecret()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.ERegistrationStatus com.unblu.webapi.model.v4.DialogBotData::getWebhookStatus()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::id(java.lang.String)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::id(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isAutomaticTypingStateHandlingEnabled()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isMessageStateHandledExternally()
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isNeedsCounterpartPresence()
+new: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isNeedsCounterpartPresence()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isReboardingEnabled()
+new: method java.lang.Boolean com.unblu.webapi.model.v4.DialogBotData::isReboardingEnabled()
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::messageStateHandledExternally(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::modificationTimestamp(java.lang.Long)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::modificationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::name(java.lang.String)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::name(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::needsCounterpartPresence(java.lang.Boolean)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::needsCounterpartPresence(java.lang.Boolean)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingOrder(java.lang.Integer)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::offboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingOrder(java.lang.Integer)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::onboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::outboundTimeoutMillis(java.lang.Long)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::outboundTimeoutMillis(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingEnabled(java.lang.Boolean)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingEnabled(java.lang.Boolean)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingOrder(java.lang.Integer)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::reboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::set$Type(com.unblu.webapi.model.v4.DialogBotData.TypeEnum)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setAccountId(java.lang.String)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setAccountId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setAutomaticTypingStateHandlingEnabled(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setBotPersonId(java.lang.String)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setBotPersonId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setCreationTimestamp(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setCreationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setDescription(java.lang.String)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setDescription(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setId(java.lang.String)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setId(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setMessageStateHandledExternally(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setModificationTimestamp(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setModificationTimestamp(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setName(java.lang.String)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setName(java.lang.String)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setNeedsCounterpartPresence(java.lang.Boolean)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setNeedsCounterpartPresence(java.lang.Boolean)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingOrder(java.lang.Integer)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOffboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOnTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOnTimeoutBehavior(com.unblu.webapi.model.v4.EBotDialogTimeoutBehavior)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingFilter(com.unblu.webapi.model.v4.EBotDialogFilter)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingOrder(java.lang.Integer)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOnboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setOutboundTimeoutMillis(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setOutboundTimeoutMillis(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setReboardingEnabled(java.lang.Boolean)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setReboardingEnabled(java.lang.Boolean)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setReboardingOrder(java.lang.Integer)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setReboardingOrder(java.lang.Integer)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setVersion(java.lang.Long)
+new: method void com.unblu.webapi.model.v4.DialogBotData::setVersion(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setWebhookApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setWebhookEndpoint(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setWebhookSecret(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method void com.unblu.webapi.model.v4.DialogBotData::setWebhookStatus(com.unblu.webapi.model.v4.ERegistrationStatus)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::version(java.lang.Long)
+new: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::version(java.lang.Long)
+java.method.nowAbstract: Method now abstract
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookApiVersion(com.unblu.webapi.model.v4.EWebApiVersion)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookEndpoint(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookSecret(java.lang.String)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: method com.unblu.webapi.model.v4.DialogBotData com.unblu.webapi.model.v4.DialogBotData::webhookStatus(com.unblu.webapi.model.v4.ERegistrationStatus)
+new: <none>
+java.method.removed: Method was removed.
+BINARY: BREAKING, SOURCE: BREAKING
+
+old: interface com.unblu.webapi.model.v4.SuggestionSourceData
+new: interface com.unblu.webapi.model.v4.SuggestionSourceData
+java.annotation.attributeAdded: Attribute 'com.fasterxml.jackson.annotation.JsonTypeInfo' of annotation '@com.fasterxml.jackson.annotation.JsonTypeInfo(use = com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME, include = com.fasterxml.jackson.annotation.JsonTypeInfo.As.EXISTING_PROPERTY, property = "type", visible = true, defaultImpl = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class)' is now explicitly set.
+BINARY: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT
+

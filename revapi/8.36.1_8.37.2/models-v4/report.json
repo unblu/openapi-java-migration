@@ -1,0 +1,553 @@
+[ {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.AnalyticsWidgetData",
+  "new" : "interface com.unblu.webapi.model.v4.AnalyticsWidgetData",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgHandlingTimeAnalyticsWidgetData.class, name = \"AVG_HANDLING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgReservationTimeAnalyticsWidgetData.class, name = \"AVG_RESERVATION_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AvgWaitingTimeAnalyticsWidgetData.class, name = \"AVG_WAITING_TIME\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CallsCountAnalyticsWidgetData.class, name = \"CALLS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CollaborationLayersCountAnalyticsWidgetData.class, name = \"COLLABORATION_LAYERS_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationsEndedCountAnalyticsWidgetData.class, name = \"CONVERSATIONS_ENDED_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MessagesCountAnalyticsWidgetData.class, name = \"MESSAGES_COUNT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.QueueInteractionCountAnalyticsWidgetData.class, name = \"QUEUE_INTERACTION_COUNT\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AnalyticsWidgetData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AnalyticsWidgetData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.37.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.AriaDialogBotData com.unblu.webapi.model.v4.AriaDialogBotData::agenticFlowId(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaDialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaDialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "agenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.AriaDialogBotData::getAgenticFlowId()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaDialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaDialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "getAgenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.AriaDialogBotData::setAgenticFlowId(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaDialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaDialogBotData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAgenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.AriaSuggestionSourceData com.unblu.webapi.model.v4.AriaSuggestionSourceData::agenticFlowId(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaSuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaSuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "agenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.String com.unblu.webapi.model.v4.AriaSuggestionSourceData::getAgenticFlowId()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaSuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaSuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "getAgenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.AriaSuggestionSourceData::setAgenticFlowId(java.lang.String)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaSuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaSuggestionSourceData"
+  }, {
+    "name" : "methodName",
+    "value" : "setAgenticFlowId"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotDialogClosedEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotDialogClosedEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotDialogClosedEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotDialogCounterpartChanged",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotDialogCounterpartChanged"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotDialogCounterpartChanged"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotDialogMessageEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotDialogMessageEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotDialogMessageEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotDialogMessageStateEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotDialogMessageStateEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotDialogMessageStateEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotDialogOpenEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotDialogOpenEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotDialogOpenEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotOffboardingOfferEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotOffboardingOfferEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotOffboardingOfferEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotOnboardingOfferEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotOnboardingOfferEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotOnboardingOfferEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.BotReboardingOfferEvent",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.BotReboardingOfferEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "BotReboardingOfferEvent"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.36.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

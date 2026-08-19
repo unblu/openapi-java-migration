@@ -1,0 +1,228 @@
+[ {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.ExternalMessengerChannel",
+  "new" : "interface com.unblu.webapi.model.v4.ExternalMessengerChannel",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = \"SMS\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = \"SMS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppExternalMessengerChannel.class, name = \"WHATS_APP\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = \"SMS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppExternalMessengerChannel.class, name = \"WHATS_APP\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = \"SMS\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = \"SMS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppExternalMessengerChannel.class, name = \"WHATS_APP\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ExternalMessengerChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExternalMessengerChannel"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.9.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method java.lang.Boolean com.unblu.webapi.model.v4.ExternalMessengerChannel::isSupportsMultipleConversationsPerContact()",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ExternalMessengerChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExternalMessengerChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "isSupportsMultipleConversationsPerContact"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method void com.unblu.webapi.model.v4.ExternalMessengerChannel::setSupportsMultipleConversationsPerContact(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ExternalMessengerChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExternalMessengerChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "setSupportsMultipleConversationsPerContact"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.removed",
+  "old" : "method com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.model.v4.ExternalMessengerChannel::supportsMultipleConversationsPerContact(java.lang.Boolean)",
+  "new" : null,
+  "name" : "method removed",
+  "description" : "Method was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ExternalMessengerChannel"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ExternalMessengerChannel"
+  }, {
+    "name" : "methodName",
+    "value" : "supportsMultipleConversationsPerContact"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.PostMessageData",
+  "new" : "interface com.unblu.webapi.model.v4.PostMessageData",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = \"CARD\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = \"FILE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = \"LIST\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = \"MULTICHOICE_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = \"RATING_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = \"REPLY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = \"TEXT_QUESTION\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = \"CARD\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = \"FILE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = \"LIST\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = \"MULTICHOICE_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = \"RATING_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = \"REPLY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = \"TEXT_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppTemplatePostMessageData.class, name = \"WHATS_APP_TEMPLATE\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = \"CARD\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = \"FILE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = \"LIST\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = \"MULTICHOICE_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = \"RATING_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = \"REPLY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = \"TEXT_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppTemplatePostMessageData.class, name = \"WHATS_APP_TEMPLATE\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = \"CARD\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = \"FILE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = \"LIST\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = \"MULTICHOICE_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = \"RATING_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = \"REPLY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = \"TEXT_QUESTION\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = \"CARD\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = \"FILE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = \"LIST\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = \"MULTICHOICE_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = \"RATING_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = \"REPLY\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = \"TEXT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = \"TEXT_QUESTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppTemplatePostMessageData.class, name = \"WHATS_APP_TEMPLATE\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PostMessageData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PostMessageData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.8.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.9.2.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

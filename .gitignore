@@ -1,0 +1,27 @@
+.gradle
+build/
+bin/
+target/
+/.idea
+/out
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Local working notes, not part of the published content
+/internal/
+
+# Claude Code
+.claude/settings.local.json
+.claude/plans/
+.claude/epic-planning/
+.claude/post-impl-issue-update/
+.claude/branch-context/
+.claude/docs
+.claude/worktrees/

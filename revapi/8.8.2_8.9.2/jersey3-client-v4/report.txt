@@ -1,0 +1,30 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.8.2.jar
+New API: jersey3-client-v4-8.9.2.jar
+old: interface com.unblu.webapi.model.v4.ExternalMessengerChannel
+new: interface com.unblu.webapi.model.v4.ExternalMessengerChannel
+java.annotation.attributeValueChanged: Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = "CUSTOM"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = "SMS")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomExternalMessengerChannel.class, name = "CUSTOM"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SmsExternalMessengerChannel.class, name = "SMS"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppExternalMessengerChannel.class, name = "WHATS_APP")}'.
+SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT, BINARY: EQUIVALENT
+
+old: method java.lang.Boolean com.unblu.webapi.model.v4.ExternalMessengerChannel::isSupportsMultipleConversationsPerContact()
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method void com.unblu.webapi.model.v4.ExternalMessengerChannel::setSupportsMultipleConversationsPerContact(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.ExternalMessengerChannel com.unblu.webapi.model.v4.ExternalMessengerChannel::supportsMultipleConversationsPerContact(java.lang.Boolean)
+new: <none>
+java.method.removed: Method was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: interface com.unblu.webapi.model.v4.PostMessageData
+new: interface com.unblu.webapi.model.v4.PostMessageData
+java.annotation.attributeValueChanged: Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = "CARD"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = "FILE"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = "LIST"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = "MULTICHOICE_QUESTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = "RATING_QUESTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = "REPLY"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = "TEXT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = "TEXT_QUESTION")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CardPostMessageData.class, name = "CARD"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.FilePostMessageData.class, name = "FILE"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ListPostMessageData.class, name = "LIST"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.MultichoiceQuestionPostMessageData.class, name = "MULTICHOICE_QUESTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RatingQuestionPostMessageData.class, name = "RATING_QUESTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ReplyPostMessageData.class, name = "REPLY"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextPostMessageData.class, name = "TEXT"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TextQuestionPostMessageData.class, name = "TEXT_QUESTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.WhatsAppTemplatePostMessageData.class, name = "WHATS_APP_TEMPLATE")}'.
+SEMANTIC: POTENTIALLY_BREAKING, SOURCE: EQUIVALENT, BINARY: EQUIVALENT
+

@@ -1,0 +1,38 @@
+[ {
+  "code" : "java.field.removed",
+  "old" : "field com.unblu.webapi.model.v4.EOffboardingReason.EXTERNAL_CHANNEL_CLOSED",
+  "new" : null,
+  "name" : "field removed",
+  "description" : "Field removed from class.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.EOffboardingReason"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "EOffboardingReason"
+  }, {
+    "name" : "fieldName",
+    "value" : "EXTERNAL_CHANNEL_CLOSED"
+  }, {
+    "name" : "elementKind",
+    "value" : "enumConstant"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.3.1.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

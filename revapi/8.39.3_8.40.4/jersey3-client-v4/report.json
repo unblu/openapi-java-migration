@@ -1,0 +1,2146 @@
+[ {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabel' to  'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(===com.unblu.webapi.model.v4.PersonLabel===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreate(===com.unblu.webapi.model.v4.Label===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabel' to 'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreate"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(===com.unblu.webapi.model.v4.PersonLabel===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsCreateWithHttpInfo(===com.unblu.webapi.model.v4.Label===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabel' to 'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsCreateWithHttpInfo"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method void com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsDelete(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method void com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsDelete(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsDelete"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<java.lang.Void> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsDeleteWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<java.lang.Void> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsDeleteWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsDeleteWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNames(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNames(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabelList' to  'com.unblu.webapi.model.v4.LabelList'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelList"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelList"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByNames"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNames(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNames(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByNames"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNamesWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNamesWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByNamesWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNamesWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByNamesWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByNamesWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScope(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScope(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabelList' to  'com.unblu.webapi.model.v4.LabelList'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelList"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelList"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByScope"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScope(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScope(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByScope"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScopeWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScopeWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByScopeWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScopeWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsGetByScopeWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelsGetByScopeBody) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsGetByScopeWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabel' to  'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabelList' to  'com.unblu.webapi.model.v4.LabelList'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelList"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelList"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadMultiple"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelList com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadMultiple"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadMultipleWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelList> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadMultipleWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(com.unblu.webapi.model.v4.PersonLabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(com.unblu.webapi.model.v4.LabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabelResult' to  'com.unblu.webapi.model.v4.LabelResult'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelResult"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelResult"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearch"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(com.unblu.webapi.model.v4.PersonLabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.LabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(com.unblu.webapi.model.v4.LabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearch"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.PersonLabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(===com.unblu.webapi.model.v4.PersonLabelQuery===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.model.v4.LabelResult com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearch(===com.unblu.webapi.model.v4.LabelQuery===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabelQuery' to 'com.unblu.webapi.model.v4.LabelQuery'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelQuery"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelQuery"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearch"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(com.unblu.webapi.model.v4.LabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelResult>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelResult>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelResult>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelResult>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearchWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(com.unblu.webapi.model.v4.PersonLabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(com.unblu.webapi.model.v4.LabelQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearchWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(===com.unblu.webapi.model.v4.PersonLabelQuery===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.LabelResult> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsSearchWithHttpInfo(===com.unblu.webapi.model.v4.LabelQuery===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabelQuery' to 'com.unblu.webapi.model.v4.LabelQuery'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabelQuery"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.LabelQuery"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsSearchWithHttpInfo"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.PersonLabel' to  'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.PersonLabel com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(===com.unblu.webapi.model.v4.PersonLabel===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.model.v4.Label com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdate(===com.unblu.webapi.model.v4.Label===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabel' to 'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdate"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.element.nowDeprecated",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(com.unblu.webapi.model.v4.PersonLabel) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(com.unblu.webapi.model.v4.Label) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "element now deprecated",
+  "description" : "The element is now deprecated.",
+  "criticality" : "error",
+  "justification" : "A deprecated element is announced for removal, which is what a caller planning an upgrade needs to see.",
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "java.lang.Deprecated"
+  }, {
+    "name" : "annotation",
+    "value" : "@java.lang.Deprecated"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(===com.unblu.webapi.model.v4.PersonLabel===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "parameter com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.Label> com.unblu.webapi.jersey.v4.api.PersonLabelsApi::personLabelsUpdateWithHttpInfo(===com.unblu.webapi.model.v4.Label===) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabel' to 'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.PersonLabelsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonLabelsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "personLabelsUpdateWithHttpInfo"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.ConversationSearchFilter",
+  "new" : "interface com.unblu.webapi.model.v4.ConversationSearchFilter",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AssigneePersonIdConversationSearchFilter.class, name = \"ASSIGNEE_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeChangeTimestampConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE_CHANGE_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ContextPersonIdConversationSearchFilter.class, name = \"CONTEXT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationTemplateIdConversationSearchFilter.class, name = \"CONVERSATION_TEMPLATE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampConversationSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndReasonConversationSearchFilter.class, name = \"END_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndTimestampConversationSearchFilter.class, name = \"END_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ExternalMessengerChannelIdConversationSearchFilter.class, name = \"EXTERNAL_MESSENGER_CHANNEL_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.HasUnreadMessagesConversationSearchFilter.class, name = \"HAS_UNREAD_MESSAGES\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InheritConfigurationAndTextsConversationSearchFilter.class, name = \"INHERIT_CONFIGURATION_AND_TEXTS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InitialEngagementTypeConversationSearchFilter.class, name = \"INITIAL_ENGAGEMENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantExternalMessengerContactIdConversationSearchFilter.class, name = \"PARTICIPANT_EXTERNAL_MESSENGER_CONTACT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdConversationSearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientIdConversationSearchFilter.class, name = \"RECIPIENT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientTypeConversationSearchFilter.class, name = \"RECIPIENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ScheduledTimestampConversationSearchFilter.class, name = \"SCHEDULED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdConversationSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StateConversationSearchFilter.class, name = \"STATE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TokboxSessionIdConversationSearchFilter.class, name = \"TOKBOX_SESSION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TopicConversationSearchFilter.class, name = \"TOPIC\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.VisibilityConversationSearchFilter.class, name = \"VISIBILITY\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AssigneePersonIdConversationSearchFilter.class, name = \"ASSIGNEE_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeChangeTimestampConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE_CHANGE_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ContextPersonIdConversationSearchFilter.class, name = \"CONTEXT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationTemplateIdConversationSearchFilter.class, name = \"CONVERSATION_TEMPLATE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampConversationSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndReasonConversationSearchFilter.class, name = \"END_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndTimestampConversationSearchFilter.class, name = \"END_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ExternalMessengerChannelIdConversationSearchFilter.class, name = \"EXTERNAL_MESSENGER_CHANNEL_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.HasUnreadMessagesConversationSearchFilter.class, name = \"HAS_UNREAD_MESSAGES\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InheritConfigurationAndTextsConversationSearchFilter.class, name = \"INHERIT_CONFIGURATION_AND_TEXTS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InitialEngagementTypeConversationSearchFilter.class, name = \"INITIAL_ENGAGEMENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LabelsConversationSearchFilter.class, name = \"LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantExternalMessengerContactIdConversationSearchFilter.class, name = \"PARTICIPANT_EXTERNAL_MESSENGER_CONTACT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdConversationSearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientIdConversationSearchFilter.class, name = \"RECIPIENT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientTypeConversationSearchFilter.class, name = \"RECIPIENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ScheduledTimestampConversationSearchFilter.class, name = \"SCHEDULED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdConversationSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StateConversationSearchFilter.class, name = \"STATE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TokboxSessionIdConversationSearchFilter.class, name = \"TOKBOX_SESSION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TopicConversationSearchFilter.class, name = \"TOPIC\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.VisibilityConversationSearchFilter.class, name = \"VISIBILITY\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AssigneePersonIdConversationSearchFilter.class, name = \"ASSIGNEE_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeChangeTimestampConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE_CHANGE_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ContextPersonIdConversationSearchFilter.class, name = \"CONTEXT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationTemplateIdConversationSearchFilter.class, name = \"CONVERSATION_TEMPLATE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampConversationSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndReasonConversationSearchFilter.class, name = \"END_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndTimestampConversationSearchFilter.class, name = \"END_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ExternalMessengerChannelIdConversationSearchFilter.class, name = \"EXTERNAL_MESSENGER_CHANNEL_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.HasUnreadMessagesConversationSearchFilter.class, name = \"HAS_UNREAD_MESSAGES\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InheritConfigurationAndTextsConversationSearchFilter.class, name = \"INHERIT_CONFIGURATION_AND_TEXTS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InitialEngagementTypeConversationSearchFilter.class, name = \"INITIAL_ENGAGEMENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LabelsConversationSearchFilter.class, name = \"LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantExternalMessengerContactIdConversationSearchFilter.class, name = \"PARTICIPANT_EXTERNAL_MESSENGER_CONTACT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdConversationSearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientIdConversationSearchFilter.class, name = \"RECIPIENT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientTypeConversationSearchFilter.class, name = \"RECIPIENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ScheduledTimestampConversationSearchFilter.class, name = \"SCHEDULED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdConversationSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StateConversationSearchFilter.class, name = \"STATE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TokboxSessionIdConversationSearchFilter.class, name = \"TOKBOX_SESSION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TopicConversationSearchFilter.class, name = \"TOPIC\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.VisibilityConversationSearchFilter.class, name = \"VISIBILITY\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AssigneePersonIdConversationSearchFilter.class, name = \"ASSIGNEE_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeChangeTimestampConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE_CHANGE_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ContextPersonIdConversationSearchFilter.class, name = \"CONTEXT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationTemplateIdConversationSearchFilter.class, name = \"CONVERSATION_TEMPLATE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampConversationSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndReasonConversationSearchFilter.class, name = \"END_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndTimestampConversationSearchFilter.class, name = \"END_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ExternalMessengerChannelIdConversationSearchFilter.class, name = \"EXTERNAL_MESSENGER_CHANNEL_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.HasUnreadMessagesConversationSearchFilter.class, name = \"HAS_UNREAD_MESSAGES\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InheritConfigurationAndTextsConversationSearchFilter.class, name = \"INHERIT_CONFIGURATION_AND_TEXTS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InitialEngagementTypeConversationSearchFilter.class, name = \"INITIAL_ENGAGEMENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantExternalMessengerContactIdConversationSearchFilter.class, name = \"PARTICIPANT_EXTERNAL_MESSENGER_CONTACT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdConversationSearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientIdConversationSearchFilter.class, name = \"RECIPIENT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientTypeConversationSearchFilter.class, name = \"RECIPIENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ScheduledTimestampConversationSearchFilter.class, name = \"SCHEDULED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdConversationSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StateConversationSearchFilter.class, name = \"STATE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TokboxSessionIdConversationSearchFilter.class, name = \"TOKBOX_SESSION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TopicConversationSearchFilter.class, name = \"TOPIC\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.VisibilityConversationSearchFilter.class, name = \"VISIBILITY\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AssigneePersonIdConversationSearchFilter.class, name = \"ASSIGNEE_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AwaitedPersonTypeChangeTimestampConversationSearchFilter.class, name = \"AWAITED_PERSON_TYPE_CHANGE_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ContextPersonIdConversationSearchFilter.class, name = \"CONTEXT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationTemplateIdConversationSearchFilter.class, name = \"CONVERSATION_TEMPLATE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CreationTimestampConversationSearchFilter.class, name = \"CREATION_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndReasonConversationSearchFilter.class, name = \"END_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.EndTimestampConversationSearchFilter.class, name = \"END_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ExternalMessengerChannelIdConversationSearchFilter.class, name = \"EXTERNAL_MESSENGER_CHANNEL_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.HasUnreadMessagesConversationSearchFilter.class, name = \"HAS_UNREAD_MESSAGES\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InheritConfigurationAndTextsConversationSearchFilter.class, name = \"INHERIT_CONFIGURATION_AND_TEXTS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.InitialEngagementTypeConversationSearchFilter.class, name = \"INITIAL_ENGAGEMENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LabelsConversationSearchFilter.class, name = \"LABELS\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantExternalMessengerContactIdConversationSearchFilter.class, name = \"PARTICIPANT_EXTERNAL_MESSENGER_CONTACT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdConversationSearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientIdConversationSearchFilter.class, name = \"RECIPIENT_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.RecipientTypeConversationSearchFilter.class, name = \"RECIPIENT_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ScheduledTimestampConversationSearchFilter.class, name = \"SCHEDULED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.SourceIdConversationSearchFilter.class, name = \"SOURCE_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StateConversationSearchFilter.class, name = \"STATE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TokboxSessionIdConversationSearchFilter.class, name = \"TOKBOX_SESSION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.TopicConversationSearchFilter.class, name = \"TOPIC\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.VisibilityConversationSearchFilter.class, name = \"VISIBILITY\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.ConversationSearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "ConversationSearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.LicenseData com.unblu.webapi.model.v4.LicenseData::putFeaturesItem(java.lang.String, ===java.lang.Object===)",
+  "new" : "parameter com.unblu.webapi.model.v4.LicenseData com.unblu.webapi.model.v4.LicenseData::putFeaturesItem(java.lang.String, ===com.fasterxml.jackson.databind.JsonNode===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'java.lang.Object' to 'com.fasterxml.jackson.databind.JsonNode'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.lang.Object"
+  }, {
+    "name" : "newType",
+    "value" : "com.fasterxml.jackson.databind.JsonNode"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.LicenseData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "LicenseData"
+  }, {
+    "name" : "methodName",
+    "value" : "putFeaturesItem"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "1"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.model.v4.PersonData::addLabelsItem(===com.unblu.webapi.model.v4.PersonLabel===)",
+  "new" : "parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.model.v4.PersonData::addLabelsItem(===com.unblu.webapi.model.v4.Label===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.PersonLabel' to 'com.unblu.webapi.model.v4.Label'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.PersonLabel"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.Label"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonData"
+  }, {
+    "name" : "methodName",
+    "value" : "addLabelsItem"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method java.util.List<com.unblu.webapi.model.v4.PersonLabel> com.unblu.webapi.model.v4.PersonData::getLabels()",
+  "new" : "method java.util.List<com.unblu.webapi.model.v4.Label> com.unblu.webapi.model.v4.PersonData::getLabels()",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'java.util.List<com.unblu.webapi.model.v4.PersonLabel>' to 'java.util.List<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonData"
+  }, {
+    "name" : "methodName",
+    "value" : "getLabels"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.model.v4.PersonData::labels(===java.util.List<com.unblu.webapi.model.v4.PersonLabel>===)",
+  "new" : "parameter com.unblu.webapi.model.v4.PersonData com.unblu.webapi.model.v4.PersonData::labels(===java.util.List<com.unblu.webapi.model.v4.Label>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.PersonLabel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonData"
+  }, {
+    "name" : "methodName",
+    "value" : "labels"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeParameterChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.PersonData::setLabels(===java.util.List<com.unblu.webapi.model.v4.PersonLabel>===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.PersonData::setLabels(===java.util.List<com.unblu.webapi.model.v4.Label>===)",
+  "name" : "type parameter of method parameter changed",
+  "description" : "The type parameter of method parameter changed. The original type was 'java.util.List<com.unblu.webapi.model.v4.PersonLabel>'while the new type is 'java.util.List<com.unblu.webapi.model.v4.Label>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.PersonLabel>"
+  }, {
+    "name" : "newType",
+    "value" : "java.util.List<com.unblu.webapi.model.v4.Label>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.PersonData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "PersonData"
+  }, {
+    "name" : "methodName",
+    "value" : "setLabels"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.39.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.40.4.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

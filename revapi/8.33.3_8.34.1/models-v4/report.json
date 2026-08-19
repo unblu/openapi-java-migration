@@ -1,0 +1,175 @@
+[ {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.CollaborationLayerLogEntrySearchFilter",
+  "new" : "interface com.unblu.webapi.model.v4.CollaborationLayerLogEntrySearchFilter",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AbortedTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"ABORTED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerStopReasonCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_STOP_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerTypeCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StoppingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STOPPING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StopTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STOP_TIMESTAMP\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AbortedTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"ABORTED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationRecordingIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_RECORDING_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerStopReasonCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_STOP_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerTypeCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StoppingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STOPPING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StopTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STOP_TIMESTAMP\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AbortedTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"ABORTED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationRecordingIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_RECORDING_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerStopReasonCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_STOP_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerTypeCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StoppingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STOPPING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StopTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STOP_TIMESTAMP\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AbortedTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"ABORTED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerStopReasonCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_STOP_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerTypeCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StoppingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STOPPING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StopTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STOP_TIMESTAMP\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AbortedTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"ABORTED_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ConversationRecordingIdCollaborationLayerLogEntrySearchFilter.class, name = \"CONVERSATION_RECORDING_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerStopReasonCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_STOP_REASON\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.LayerTypeCollaborationLayerLogEntrySearchFilter.class, name = \"LAYER_TYPE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.ParticipantPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"PARTICIPANT_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StartingTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STARTING_TIMESTAMP\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StoppingPersonIdCollaborationLayerLogEntrySearchFilter.class, name = \"STOPPING_PERSON_ID\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.StopTimestampCollaborationLayerLogEntrySearchFilter.class, name = \"STOP_TIMESTAMP\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.CollaborationLayerLogEntrySearchFilter"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "CollaborationLayerLogEntrySearchFilter"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.33.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.34.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "new" : "interface com.unblu.webapi.model.v4.DialogBotData",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaDialogBotData.class, name = \"ARIA\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaDialogBotData.class, name = \"ARIA\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotDialogBotData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomDialogBotData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaDialogBotData.class, name = \"ARIA\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.DialogBotData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "DialogBotData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.33.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.34.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "new" : "interface com.unblu.webapi.model.v4.SuggestionSourceData",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceData.class, name = \"ARIA\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceData.class, name = \"ARIA\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CopilotSuggestionSourceData.class, name = \"COPILOT\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.CustomSuggestionSourceData.class, name = \"CUSTOM\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceData.class, name = \"ARIA\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.SuggestionSourceData"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "SuggestionSourceData"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.33.3.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.34.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+} ]

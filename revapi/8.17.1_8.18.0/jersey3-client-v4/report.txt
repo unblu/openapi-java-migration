@@ -1,0 +1,22 @@
+Analysis results
+----------------
+
+Old API: jersey3-client-v4-8.17.1.jar
+New API: jersey3-client-v4-8.18.0.jar
+old: method com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::getType()
+new: method com.unblu.webapi.model.v4.EAuxiliaryCameraType com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::getType()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to  'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::setType(===com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType===)
+new: parameter void com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::setType(===com.unblu.webapi.model.v4.EAuxiliaryCameraType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to 'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::type(===com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType===)
+new: parameter com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData com.unblu.webapi.model.v4.BranchClientAuxiliaryCameraData::type(===com.unblu.webapi.model.v4.EAuxiliaryCameraType===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.EBranchClientAuxiliaryCameraType' to 'com.unblu.webapi.model.v4.EAuxiliaryCameraType'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
