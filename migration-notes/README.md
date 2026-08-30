@@ -59,8 +59,9 @@ target: each one is independent and they compose.
 | [8.37.2 → 8.38.2](8.37.2_8.38.2.md) | **yes** | Two WhatsApp template enums were renamed to fix a spelling mistake. |
 | [8.38.2 → 8.39.3](8.38.2_8.39.3.md) | — | no change |
 | [8.39.3 → 8.40.4](8.39.3_8.40.4.md) | **yes** | The "person label" vocabulary was renamed to "label". |
+| [8.40.4 → 8.41.4](8.40.4_8.41.4.md) | **yes** | The label selection enum of the person visibility rules was renamed. |
 
-17 of the 43 releases require a change to java code. The remaining 26 are a version bump.
+18 of the 44 releases require a change to java code. The remaining 26 are a version bump.
 
 Each note links to the working examples in [`examples/`](../examples/) that demonstrate
 the break: every one of them compiles against the older client and fails to compile

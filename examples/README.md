@@ -39,7 +39,7 @@ works for every client version.
 
 ## The examples
 
-34 programs covering **every one of the 593 `SOURCE`/`BINARY: BREAKING` findings** in the
+35 programs covering **every one of the 615 `SOURCE`/`BINARY: BREAKING` findings** in the
 reports. "Findings" is how many that example is the primary cover for; "Runs" says
 whether it completes against a current server.
 
@@ -79,6 +79,7 @@ whether it completes against a current server.
 | `8.37.2_8.38.2` | [BuildWhatsAppTemplateComponentParameters.java](BuildWhatsAppTemplateComponentParameters.java) | 8 | yes | `class.removed` — the two template-parameter enums, renamed to fix a typo |
 | `8.39.3_8.40.4` | [CreatePersonLabel.java](CreatePersonLabel.java) | 27 | yes | `class.removed` — the "person label" vocabulary renamed to "label" |
 | `8.39.3_8.40.4` | [SearchPersonsByLabels.java](SearchPersonsByLabels.java) | 24 | yes | the label search filters and operators, and the models carrying labels |
+| `8.40.4_8.41.4` | [CreatePersonVisibilityRule.java](CreatePersonVisibilityRule.java) | 22 | yes | `class.removed` — `EPersonVisibilityLabelSelection` renamed to `EVisibilityLabelSelection` |
 
 \* the request is accepted, but a current server ignores the `autoOpen` value and
 returns it as `null`.
