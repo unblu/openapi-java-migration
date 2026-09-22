@@ -37,7 +37,7 @@ It grows in three steps.
 
 3. **Write it up** — [migration-notes/](migration-notes/) turns each verified break into
    a note a library user can act on: what changed, and the before/after for the code they
-   have to touch. 18 of the 44 releases require a java change; the rest are a version
+   have to touch. 18 of the 45 releases require a java change; the rest are a version
    bump, and the notes say so plainly.
 
 4. **Automate the migration** *(next step, not built yet)*. Every verified break is a
