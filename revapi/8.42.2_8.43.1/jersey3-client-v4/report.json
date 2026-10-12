@@ -1,0 +1,991 @@
+[ {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreate(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreate(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreate(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreate(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsCreate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsCreateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsCreateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByName(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByName(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsGetByName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByName(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByName(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsGetByName"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByNameWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByNameWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsGetByNameWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByNameWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsGetByNameWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsGetByNameWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsRead(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsRead(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsRead(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsRead"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistrationList com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationDataList com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadMultiple(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistrationList' to  'com.unblu.webapi.model.v4.WebhookRegistrationDataList'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationList"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationDataList"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsReadMultiple"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationList> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataList> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadMultipleWithHttpInfo(java.util.List<java.lang.String>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationList>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataList>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationList>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataList>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsReadMultipleWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadWithHttpInfo(java.lang.String) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsReadWithHttpInfo(java.lang.String, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsReadWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistrationResult com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsSearch(com.unblu.webapi.model.v4.WebhookRegistrationQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationDataResult com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsSearch(com.unblu.webapi.model.v4.WebhookRegistrationQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistrationResult' to  'com.unblu.webapi.model.v4.WebhookRegistrationDataResult'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationResult"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationDataResult"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsSearch"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationResult> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsSearchWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataResult> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsSearchWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationQuery) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationResult>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataResult>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationResult>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationDataResult>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsSearchWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdate(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdate(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdate(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdate(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsUpdate"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.numberOfParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "number of parameters changed",
+  "description" : "The number of parameters of the method have changed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeTypeParametersChanged",
+  "old" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistration) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "new" : "method com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData> com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi::webhookRegistrationsUpdateWithHttpInfo(com.unblu.webapi.model.v4.WebhookRegistrationData, java.util.List<com.unblu.webapi.model.v4.ExpandFields>) throws com.unblu.webapi.jersey.v4.invoker.ApiException",
+  "name" : "return type changed type parameter",
+  "description" : "The return type changed from 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>' to 'com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "NON_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistration>"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.jersey.v4.invoker.ApiResponse<com.unblu.webapi.model.v4.WebhookRegistrationData>"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.jersey.v4.api"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.jersey.v4.api.WebhookRegistrationsApi"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationsApi"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistrationsUpdateWithHttpInfo"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "jersey3-client-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "jersey3-client-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent",
+  "new" : "interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaAgenticFlowDataContent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaAgenticFlowDataContent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "supplementary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "supplementary"
+  } ]
+} ]

@@ -39,7 +39,7 @@ works for every client version.
 
 ## The examples
 
-35 programs covering **every one of the 615 `SOURCE`/`BINARY: BREAKING` findings** in the
+36 programs covering **every one of the 644 `SOURCE`/`BINARY: BREAKING` findings** in the
 reports. "Findings" is how many that example is the primary cover for; "Runs" says
 whether it completes against a current server.
 
@@ -80,6 +80,7 @@ whether it completes against a current server.
 | `8.39.3_8.40.4` | [CreatePersonLabel.java](CreatePersonLabel.java) | 27 | yes | `class.removed` — the "person label" vocabulary renamed to "label" |
 | `8.39.3_8.40.4` | [SearchPersonsByLabels.java](SearchPersonsByLabels.java) | 24 | yes | the label search filters and operators, and the models carrying labels |
 | `8.40.4_8.41.4` | [CreatePersonVisibilityRule.java](CreatePersonVisibilityRule.java) | 22 | yes | `class.removed` — `EPersonVisibilityLabelSelection` renamed to `EVisibilityLabelSelection` |
+| `8.42.2_8.43.1` | [ManageWebhookRegistration.java](ManageWebhookRegistration.java) | 29 | yes | `class.removed` — `WebhookRegistration` renamed to `WebhookRegistrationData`, and four `WebhookRegistrationsApi` operations gained `expand` |
 
 \* the request is accepted, but a current server ignores the `autoOpen` value and
 returns it as `null`.
@@ -106,7 +107,7 @@ be ready for `null`, and code that round-trips data can silently write the `null
 
 ### The ones that do not run
 
-Four of the 34:
+Four of the 36:
 
 * **`GenerateSummaryTryForTemplate`**, **`SearchCannedResponsesByKey`**,
   **`SearchPersonsByLabelName`** — the value each one sends was removed from the set the

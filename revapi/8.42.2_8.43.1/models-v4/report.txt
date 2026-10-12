@@ -1,0 +1,59 @@
+Analysis results
+----------------
+
+Old API: models-v4-8.42.2.jar
+New API: models-v4-8.43.1.jar
+old: interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent
+new: interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent
+java.annotation.attributeValueChanged: Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = "CUSTOM_ACTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = "MULTIFLOW"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = "SINGLE_FLOW"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = "SUGGESTION_SOURCE")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = "CUSTOM_ACTION"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = "MULTIFLOW"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = "SINGLE_FLOW"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = "SUGGESTION_SOURCE"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = "WEBHOOK")}'.
+SOURCE: EQUIVALENT, BINARY: EQUIVALENT, SEMANTIC: POTENTIALLY_BREAKING
+
+old: method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.model.v4.WebhookExpiredEvent::getWebhookRegistration()
+new: method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.model.v4.WebhookExpiredEvent::getWebhookRegistration()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.WebhookExpiredEvent::setWebhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistration===)
+new: parameter void com.unblu.webapi.model.v4.WebhookExpiredEvent::setWebhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.WebhookExpiredEvent com.unblu.webapi.model.v4.WebhookExpiredEvent::webhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistration===)
+new: parameter com.unblu.webapi.model.v4.WebhookExpiredEvent com.unblu.webapi.model.v4.WebhookExpiredEvent::webhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.model.v4.WebhookPingEvent::getWebhookConfiguration()
+new: method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.model.v4.WebhookPingEvent::getWebhookConfiguration()
+java.method.returnTypeChanged: The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+SOURCE: POTENTIALLY_BREAKING, BINARY: BREAKING
+
+old: parameter void com.unblu.webapi.model.v4.WebhookPingEvent::setWebhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistration===)
+new: parameter void com.unblu.webapi.model.v4.WebhookPingEvent::setWebhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: parameter com.unblu.webapi.model.v4.WebhookPingEvent com.unblu.webapi.model.v4.WebhookPingEvent::webhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistration===)
+new: parameter com.unblu.webapi.model.v4.WebhookPingEvent com.unblu.webapi.model.v4.WebhookPingEvent::webhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)
+java.method.parameterTypeChanged: The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.
+A changed parameter type means the call no longer compiles.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: class com.unblu.webapi.model.v4.WebhookRegistration
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: class com.unblu.webapi.model.v4.WebhookRegistrationList
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+
+old: class com.unblu.webapi.model.v4.WebhookRegistrationResult
+new: <none>
+java.class.removed: Class was removed.
+SOURCE: BREAKING, BINARY: BREAKING
+

@@ -1,0 +1,467 @@
+[ {
+  "code" : "java.annotation.attributeValueChanged",
+  "old" : "interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent",
+  "new" : "interface com.unblu.webapi.model.v4.AriaAgenticFlowDataContent",
+  "name" : "annotation attribute changed",
+  "description" : "Attribute 'value' of annotation 'com.fasterxml.jackson.annotation.JsonSubTypes' changed value from '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\")}' to '{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")}'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "EQUIVALENT"
+  }, {
+    "compatibility" : "SEMANTIC",
+    "severity" : "POTENTIALLY_BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "annotationType",
+    "value" : "com.fasterxml.jackson.annotation.JsonSubTypes"
+  }, {
+    "name" : "annotation",
+    "value" : "@com.fasterxml.jackson.annotation.JsonSubTypes({@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")})"
+  }, {
+    "name" : "attribute",
+    "value" : "value"
+  }, {
+    "name" : "oldValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\")}"
+  }, {
+    "name" : "newValue",
+    "value" : "{@com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaCustomActionAgenticFlowDataContent.class, name = \"CUSTOM_ACTION\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaMultiflowAgenticFlowDataContent.class, name = \"MULTIFLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSingleFlowAgenticFlowDataContent.class, name = \"SINGLE_FLOW\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaSuggestionSourceAgenticFlowDataContent.class, name = \"SUGGESTION_SOURCE\"), @com.fasterxml.jackson.annotation.JsonSubTypes.Type(value = com.unblu.webapi.model.v4.AriaWebhookAgenticFlowDataContent.class, name = \"WEBHOOK\")}"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.AriaAgenticFlowDataContent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "AriaAgenticFlowDataContent"
+  }, {
+    "name" : "elementKind",
+    "value" : "interface"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.model.v4.WebhookExpiredEvent::getWebhookRegistration()",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.model.v4.WebhookExpiredEvent::getWebhookRegistration()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookExpiredEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookExpiredEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookRegistration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.WebhookExpiredEvent::setWebhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistration===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.WebhookExpiredEvent::setWebhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookExpiredEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookExpiredEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookRegistration"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.WebhookExpiredEvent com.unblu.webapi.model.v4.WebhookExpiredEvent::webhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistration===)",
+  "new" : "parameter com.unblu.webapi.model.v4.WebhookExpiredEvent com.unblu.webapi.model.v4.WebhookExpiredEvent::webhookRegistration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookExpiredEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookExpiredEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookRegistration"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.returnTypeChanged",
+  "old" : "method com.unblu.webapi.model.v4.WebhookRegistration com.unblu.webapi.model.v4.WebhookPingEvent::getWebhookConfiguration()",
+  "new" : "method com.unblu.webapi.model.v4.WebhookRegistrationData com.unblu.webapi.model.v4.WebhookPingEvent::getWebhookConfiguration()",
+  "name" : "return type changed",
+  "description" : "The return type changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to  'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "POTENTIALLY_BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookPingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookPingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "getWebhookConfiguration"
+  }, {
+    "name" : "elementKind",
+    "value" : "method"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter void com.unblu.webapi.model.v4.WebhookPingEvent::setWebhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistration===)",
+  "new" : "parameter void com.unblu.webapi.model.v4.WebhookPingEvent::setWebhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookPingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookPingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "setWebhookConfiguration"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.method.parameterTypeChanged",
+  "old" : "parameter com.unblu.webapi.model.v4.WebhookPingEvent com.unblu.webapi.model.v4.WebhookPingEvent::webhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistration===)",
+  "new" : "parameter com.unblu.webapi.model.v4.WebhookPingEvent com.unblu.webapi.model.v4.WebhookPingEvent::webhookConfiguration(===com.unblu.webapi.model.v4.WebhookRegistrationData===)",
+  "name" : "parameter type changed",
+  "description" : "The type of the parameter changed from 'com.unblu.webapi.model.v4.WebhookRegistration' to 'com.unblu.webapi.model.v4.WebhookRegistrationData'.",
+  "criticality" : "error",
+  "justification" : "A changed parameter type means the call no longer compiles.",
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "oldType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "newType",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationData"
+  }, {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookPingEvent"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookPingEvent"
+  }, {
+    "name" : "methodName",
+    "value" : "webhookConfiguration"
+  }, {
+    "name" : "parameterIndex",
+    "value" : "0"
+  }, {
+    "name" : "elementKind",
+    "value" : "parameter"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  }, {
+    "name" : "newArchive",
+    "value" : "models-v4-8.43.1.jar"
+  }, {
+    "name" : "newArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.WebhookRegistration",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistration"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistration"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.WebhookRegistrationList",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationList"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationList"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+}, {
+  "code" : "java.class.removed",
+  "old" : "class com.unblu.webapi.model.v4.WebhookRegistrationResult",
+  "new" : null,
+  "name" : "class removed",
+  "description" : "Class was removed.",
+  "criticality" : "error",
+  "justification" : null,
+  "classification" : [ {
+    "compatibility" : "SOURCE",
+    "severity" : "BREAKING"
+  }, {
+    "compatibility" : "BINARY",
+    "severity" : "BREAKING"
+  } ],
+  "attachments" : [ {
+    "name" : "package",
+    "value" : "com.unblu.webapi.model.v4"
+  }, {
+    "name" : "classQualifiedName",
+    "value" : "com.unblu.webapi.model.v4.WebhookRegistrationResult"
+  }, {
+    "name" : "classSimpleName",
+    "value" : "WebhookRegistrationResult"
+  }, {
+    "name" : "elementKind",
+    "value" : "class"
+  }, {
+    "name" : "oldArchive",
+    "value" : "models-v4-8.42.2.jar"
+  }, {
+    "name" : "oldArchiveRole",
+    "value" : "primary"
+  } ]
+} ]
